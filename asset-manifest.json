@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/humrahi/static/css/main.4b95af3c.css",
+    "main.js": "/humrahi/static/js/main.d12df1df.js",
+    "static/media/humrahi.png": "/humrahi/static/media/humrahi.8580e82e3345da82f1c2.png",
+    "static/media/students.png": "/humrahi/static/media/students.f18d25b203bed31cc9e2.png",
+    "static/media/ibm-plex-sans-all-400-normal.woff": "/humrahi/static/media/ibm-plex-sans-all-400-normal.ac37447d88dc924364ce.woff",
+    "static/media/ibm-plex-serif-all-400-normal.woff": "/humrahi/static/media/ibm-plex-serif-all-400-normal.c08fe2d881547a251f1a.woff",
+    "static/media/logo.png": "/humrahi/static/media/logo.d87b929cfa25695b80ca.png",
+    "static/media/ibm-plex-serif-latin-400-normal.woff2": "/humrahi/static/media/ibm-plex-serif-latin-400-normal.81644517e415f1956ace.woff2",
+    "static/media/ibm-plex-sans-latin-400-normal.woff2": "/humrahi/static/media/ibm-plex-sans-latin-400-normal.4d32b6c22a800bdf8260.woff2",
+    "static/media/ibm-plex-sans-latin-ext-400-normal.woff2": "/humrahi/static/media/ibm-plex-sans-latin-ext-400-normal.77bcbc5ecc8f4f2bbe06.woff2",
+    "static/media/ibm-plex-serif-latin-ext-400-normal.woff2": "/humrahi/static/media/ibm-plex-serif-latin-ext-400-normal.e1eef50a975ad5a4d559.woff2",
+    "static/media/ibm-plex-serif-cyrillic-400-normal.woff2": "/humrahi/static/media/ibm-plex-serif-cyrillic-400-normal.401d178f34f59e934b09.woff2",
+    "static/media/ibm-plex-sans-cyrillic-400-normal.woff2": "/humrahi/static/media/ibm-plex-sans-cyrillic-400-normal.2f77d85fb008b53d005a.woff2",
+    "static/media/ibm-plex-serif-cyrillic-ext-400-normal.woff2": "/humrahi/static/media/ibm-plex-serif-cyrillic-ext-400-normal.d51fb4e1b62b7a3fd759.woff2",
+    "static/media/ibm-plex-sans-greek-400-normal.woff2": "/humrahi/static/media/ibm-plex-sans-greek-400-normal.3a057227a4ac726b71f5.woff2",
+    "static/media/ibm-plex-sans-cyrillic-ext-400-normal.woff2": "/humrahi/static/media/ibm-plex-sans-cyrillic-ext-400-normal.56b6c5df575156819cfa.woff2",
+    "static/media/ibm-plex-sans-vietnamese-400-normal.woff2": "/humrahi/static/media/ibm-plex-sans-vietnamese-400-normal.2e4166a1b8ecf1ee5e45.woff2",
+    "static/media/ibm-plex-serif-vietnamese-400-normal.woff2": "/humrahi/static/media/ibm-plex-serif-vietnamese-400-normal.42805e7ffdf9b3a3de85.woff2",
+    "index.html": "/humrahi/index.html",
+    "main.4b95af3c.css.map": "/humrahi/static/css/main.4b95af3c.css.map",
+    "main.d12df1df.js.map": "/humrahi/static/js/main.d12df1df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b95af3c.css",
+    "static/js/main.d12df1df.js"
+  ]
+}
