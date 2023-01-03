@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+import { Routes, Route, Navigate } from "react-router-dom";
+import Home from "./Home";
+import About from "./About";
+import Contact from "./Contact";
+import Service from "./Service";
+import Navbar from "./Navbar";
+import How from "./how"
+import FAQ from "./Faq"
+import Becompanion from "./Becompanion"
+import "@fontsource/ibm-plex-sans"; // Defaults to weight 400.
+import "@fontsource/ibm-plex-serif";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route exact path='/' element={<Home/>} />
+        <Route exact path='/about' element={<About/>} />
+        <Route exact path='/service' element={<Service/>} />
+        <Route exact path='/how' element={<How/>} />
+        <Route exact path='/becompanion' element={<Becompanion/>} />
+        <Route exact path='/faq' element={<FAQ/>} />
+        <Route exact path='/contact' element={<Contact/>} />
+        <Route path="/" element={<Navigate replace to={<Home/>} />} />
+      </Routes>
+    </>
   );
 }
 

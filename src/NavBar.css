@@ -1,0 +1,10 @@
+.navbar-header {
+    background-color: #FFFCBA;
+  }
+  .nav-item {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: IBM Plex Sans;
+  }

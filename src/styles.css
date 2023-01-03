@@ -1,0 +1,48 @@
+
+  .App{
+     margin-left: 10%;
+     margin-top: 5%;
+  }
+.read-more-link{
+  
+  letter-spacing: 1px;
+  cursor: pointer;
+  }
+.extra-content{
+  color: black;
+ font-weight: 100;
+ display: flex;
+ justify-content: right;
+ align-items: right;
+ font-family: IBM Plex Sans;
+ font-size: 18px;
+ margin-top: 10px;
+}
+.dd{
+  color: black;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: IBM Plex Sans;
+}
+.borderL{
+  border: 1px solid #000000;
+width: 500;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 6%;
+}  
+.border-x3{
+  border: 1px solid #000000;
+  margin-top: 3%;
+  margin-right: 16%;
+}
+.at-end{
+  align-items: right;
+  margin-right: 16%;
+  float: right;
+}
+.breakd{
+  margin-bottom: 10%;
+}
