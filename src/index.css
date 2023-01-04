@@ -6,7 +6,9 @@
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
 }
-
+div {
+  white-space: normal;
+}
 .navbar {
   background: #fff;
 }
@@ -29,7 +31,9 @@
 }
 .heading_title_border {
   border-left: 2px solid #000000c4;
-  margin-left: 20px;
+  margin-left: 2%;
+  margin-top: 2%;
+  position: relative;
   
 }
 .navbar a:hover,
@@ -39,33 +43,107 @@
 .ntext{
   color: #000000;
   font-size: 25px;
-  font-weight: 400;
-  font-family: Roboto;
+  font-weight: bold;
+  font-family: "IBM Plex Serif";
   position: relative;
+}
+.ntexts{
+  color: #000000;
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: "IBM Plex Serif";
+  position: relative;
+}
+.ntextn{
+  color: #000000;
+  
+  font-family: "IBM Plex Serif";
+  position: relative;
+font-weight: lighter;
+left: 50%;
+transform: translateX(-50%);
+  font-size: 24px;
 }
 
 .ntext2{
   color: #000000;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 200;
-  font-family: Roboto;
+  font-family: "IBM Plex Sans";
   position: relative;
-  margin-top: 20px;
+  margin-top: 2%;
 }
-
-.heading_text {
+.heading_textBig1 {
   color: #000000;
-  font-size: 36px;
-  font-weight: 500;
+  font-size: 40px;
+  font-weight: bold;
   font-family: "IBM Plex Serif";
-  padding: 25px;
+  position: relative;
   
 }
+.heading_textBigB {
+  color: #000000;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "IBM Plex Serif";
+  position: relative;
+  
+}
+.heading_textBig2 {
+  color: #000000;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: "IBM Plex Serif";
+  position: relative;
+  
+}
+
+.heading_text1 {
+  color: #000000;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "IBM Plex Serif";
+  position: relative;
+  
+}
+.heading_text2 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: "IBM Plex Serif";
+  position: relative;
+  
+}
+.heading_text2sans {
+  color: #000000;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: "IBM Plex Sans";
+  position: relative;
+  
+}
+.heading_text3 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: lighter;
+  font-family: "IBM Plex Serif";
+  position: relative;
+  
+}
+.heading_text3center {
+  color: #000000;
+  font-size: 30px;
+  font-weight: lighter;
+  font-family: "IBM Plex Serif";
+  position: relative;
+  left: 50%;
+transform: translateX(-50%);
+}
 .break{
-margin-bottom: 40px;
+margin-bottom: 4%;
 }
 .break2{
-  margin-bottom: 60px;
+  margin-bottom: 6%;
   }
 .svg-icon {
   
@@ -133,9 +211,8 @@ margin-bottom: 40px;
 
 .header-img {
   text-align: right;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  padding: 40px;
+ position: relative;
+  padding: 10px;
 }
 .centered {
   
@@ -206,7 +283,8 @@ html, body {
   overflow-x: hidden;
 }
 .wrapper {
-  margin-left: 60px;
+  margin-left: 6%;
+  position: relative;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   gap: 10px;

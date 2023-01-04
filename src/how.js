@@ -13,7 +13,7 @@ function how() {
         <div className="container-fluid nav_bg heading_background2">
           <div className="align-center">
             <div className="row">
-              <div className="heading_text centersimple">How it Works</div>
+              <div className="heading_textBigB centersimple breakup">How it Works</div>
               <div
                 className="border-x2"
                 style={{
@@ -23,17 +23,17 @@ function how() {
                   left: "50%",
                   right: "50%",
                   transform: "translate(-50%, -50%)",
-                  marginTop: "80px",
+                  marginTop: "9%",
                 }}
               ></div>
-              <div className="col-md-4 centered-txt">
+              <div className="col-md-5 ntextn" style={{marginTop:"4%",textAlign:"center"}}>
                 Humrahi offers older adults companionship to encourage them to
                 live life to the fullest!
               </div>
             </div>
             <div className="break2"></div>
 
-            <div className="box centre">
+            <div className="box centre" style={{marginBottom:"6%"}}>
               <div className="container centre ">
                 <img src={one} alt="img not found"></img>
                 <div className="break"></div>
@@ -61,9 +61,9 @@ function how() {
                   companionship, who would arrive and offer help!
                 </div>
                 <div className="break"></div>
-                <div className="break"></div>
               </div>
             </div>
+            <div className="break"></div>
           </div>
         </div>
       </section>
@@ -72,13 +72,13 @@ function how() {
         <div className="container-fluid nav_bg">
           <div className="align-center breakup">
             <div className="row">
-              <div className="heading_text centersimple">Pricing</div>
-              <div className=" centered-txt col-md-9" style={{ marginBottom:"30px"}}>
+              <div className="heading_textBig1 centersimple">Pricing</div>
+              <div className=" heading_text3center col-md-10" style={{ marginBottom:"3%", marginTop:"2%"}}>
                 Pricing is straightforward, we charge at an hourly rate, and on
                 top of that we charge on the basis of additional services that
                 may be required by our clients.
               </div>
-              <div className="centered-txt col-md-4" style={{ marginTop:"30px"}} >
+              <div className="ntextn col-md-4" style={{ marginTop:"30px", textAlign:"center",marginBottom:"2%"}} >
                 Call us at 03219390689 or click below to learn more.
               </div>
               <div className="centersimple" style={{ marginBottom:"90px"}}>

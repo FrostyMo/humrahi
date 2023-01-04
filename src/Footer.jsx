@@ -2,8 +2,8 @@ import React from "react";
 import "./index.css";
 import "./Common.css";
 import logo from "../src/Pictures/logo.png";
-import fb from "../src/Pictures/fb.png";
-import insta from "../src/Pictures/insta.png";
+import fb from "../src/Pictures/fbsvg.svg";
+import insta from "../src/Pictures/instasvg.svg";
 import { NavLink } from "react-router-dom";
 function Footer() {
   return (

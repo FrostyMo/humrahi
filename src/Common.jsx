@@ -22,10 +22,16 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
       <section className="d-flex align-items-center">
         <div className="container-fluid nav_bg heading_background">
           <div className="col-10 mx-auto">
-            <div className="row">
-              <div className="col-md-6 heading_text">
+            <div className="row" style={{ marginBottom: "8%" }}>
+              <div
+                className="col-md-6 heading_text1"
+                style={{ marginTop: "3%" }}
+              >
                 {name}
-                <div className="header2">
+                <div
+                  className=" col-md-11 heading_text2 "
+                  style={{ marginTop: "4%" }}
+                >
                   We connect university students with the elderly living in
                   their homes to provide them with social support, help them
                   with activities of day-to-day living, run errands for them,
@@ -41,7 +47,10 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
                 </div>
               </div>
 
-              <div className="col-lg-6   header-img">
+              <div
+                className="col-lg-6   header-img"
+                style={{ marginTop: "3%" }}
+              >
                 <img
                   src={imgsrc}
                   className="img-fluid animated"
@@ -58,7 +67,10 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
           <div className="container-fluid nav_bg ">
             <div className=" mx-auto">
               <div className="row">
-                <div className="col-md-6 heading_text">
+                <div
+                  className="col-md-6 heading_textBig1"
+                  style={{ marginTop: "3%", marginBottom: "5%" }}
+                >
                   What Can We Help You With
                 </div>
               </div>
@@ -67,17 +79,23 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
         </section>
       </div>
 
-      <div class="wrapper">
+      <div class="wrapper" style={{ marginBottom: "8%" }}>
         <div class="item1">
           <div class="box">
-            <div>
+            <div style={{ marginTop: "3%" }}>
               <img src={home1} alt="img not found"></img>
             </div>
-            <div className=" heading_title_border break">
-              <span className="me-4 ntext">
+            <div className=" heading_title_border">
+              <span
+                className="me-4 heading_textBig2"
+                style={{ marginLeft: "4%" }}
+              >
                 {" "}
                 At Your House
-                <div className="ntext2 col-md-7 ">
+                <div
+                  className="heading_text2 col-md-10 "
+                  style={{ marginLeft: "4%", marginTop: "5%" }}
+                >
                   Preparing meals, gardening, light cleaning, helping with pets,
                   and above all making a new friend!
                 </div>
@@ -89,14 +107,20 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
         </div>
         <div class="item2">
           <div class="box">
-            <div>
+            <div style={{ marginTop: "3%" }}>
               <img src={shop} alt="img not found"></img>
             </div>
-            <div className=" heading_title_border break">
-              <span className="me-4 ntext">
+            <div className=" heading_title_border ">
+              <span
+                className="me-4 heading_textBig2"
+                style={{ marginLeft: "4%" }}
+              >
                 {" "}
                 Running Errands For You
-                <div className="ntext2 col-md-7 ">
+                <div
+                  className="heading_text2 col-md-11 "
+                  style={{ marginLeft: "4%", marginTop: "5%" }}
+                >
                   Grocery shopping, picking up parcels, shopping for gifts,
                   picking up somethhing from a friend’s or relative’s house
                 </div>
@@ -106,14 +130,20 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
         </div>
         <div class="item3">
           <div class="box">
-            <div>
+            <div style={{ marginTop: "3%" }}>
               <img src={car} alt="img not found"></img>
             </div>
-            <div className=" heading_title_border break">
-              <span className="me-4 ntext">
+            <div className=" heading_title_border ">
+              <span
+                className="me-4 heading_textBig2"
+                style={{ marginLeft: "4%" }}
+              >
                 {" "}
                 Around Your City
-                <div className="ntext2 col-md-7 ">
+                <div
+                  className="heading_text2 col-md-10 "
+                  style={{ marginLeft: "4%", marginTop: "5%" }}
+                >
                   Shopping, trips to friends and family, attending social
                   gatherings, appointments, going out for a drive in the city or
                   setting up rides for you.
@@ -124,14 +154,20 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
         </div>
         <div class="item4">
           <div class="box">
-            <div>
+            <div style={{ marginTop: "3%" }}>
               <img src={dgital} alt="img not found"></img>
             </div>
-            <div className=" heading_title_border break">
-              <span className="me-4 ntext">
+            <div className=" heading_title_border ">
+              <span
+                className="me-4 heading_textBig2"
+                style={{ marginLeft: "4%" }}
+              >
                 {" "}
                 Digital
-                <div className="ntext2 col-md-7 ">
+                <div
+                  className="heading_text2 col-md-10 "
+                  style={{ marginLeft: "4%", marginTop: "5%" }}
+                >
                   Teaching how to operate computers, tablets, smartphones,
                   smartTVs Both in person and digitally
                 </div>
@@ -145,8 +181,11 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
         <div className="container-fluid nav_bg heading_background2">
           <div className="align-center">
             <div className="row">
-              <div className="heading_text centered">How it Works</div>
-              <div className=" centered-txt">
+              <div className="heading_textBig2 centered">How it Works</div>
+              <div
+                className=" heading_text2 centersimple"
+                style={{ marginTop: "3%" }}
+              >
                 Humrahi offers older adults companionship to encourage them to
                 live life to the fullest!
               </div>
@@ -191,9 +230,12 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
         <div className="container-fluid nav_bg">
           <div className="col-10 mx-auto">
             <div className="row">
-              <div className="col-md-6 heading_text vertical-center ">
+              <div className="col-md-7 heading_text1 vertical-center ">
                 Who are the student companions?
-                <div className="txt2 col-md-10 ">
+                <div
+                  className="heading_text3 col-md-11 "
+                  style={{ marginTop: "3%" }}
+                >
                   Individuals offering you companionship are university students
                   who want to give back to the community while earning flexible
                   income in the process, and they love spending time with the
@@ -201,7 +243,7 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-5">
                 <img src={students} alt="img not found" />
               </div>
             </div>
@@ -213,11 +255,19 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
         <div className="container-fluid nav_bg heading_background3">
           <div className="align-center">
             <div className="row">
-              <div className="heading_text centersimple">Get Paired Now</div>
-              <div className=" centered-txt">
+              <div
+                className="heading_textBig2 centersimple"
+                style={{ marginTop: "3%" }}
+              >
+                Get Paired Now
+              </div>
+              <div
+                className=" heading_text2sans centersimple"
+                style={{ marginTop: "2%" }}
+              >
                 Call us at 03219390689 or click below to learn more.
               </div>
-              <div className="centersimple break">
+              <div className="centersimple break" style={{ marginTop: "2%" }}>
                 <NavLink to={visit}>
                   <button type="button" className="buttont">
                     Learn More
@@ -233,11 +283,19 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
         <div className="container-fluid nav_bg heading_background2">
           <div className="align-center">
             <div className="row">
-              <div className="heading_text centersimple">Our Story</div>
-              <div className=" centered-txt">
+              <div
+                className="heading_textBig2 centersimple"
+                style={{ marginTop: "3%" }}
+              >
+                Our Story
+              </div>
+              <div
+                className=" heading_text2sans centersimple"
+                style={{ marginTop: "2%" }}
+              >
                 Learn more about who we are and how we got started?
               </div>
-              <div className="centersimple break">
+              <div className="centersimple break" style={{ marginTop: "2%" }}>
                 <NavLink to="/about">
                   <button type="button" className="buttont">
                     About Us

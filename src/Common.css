@@ -6,6 +6,8 @@
     display: flex;
     align-items: flex-start;
     flex-direction: row;
+    position: relative;
+    white-space: nowrap;
   }
   .vertical-center {
    
@@ -24,6 +26,7 @@
     display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
   }
   .alignleft{
     text-align: left;
@@ -35,12 +38,13 @@
     background-color: #00b3ffb5; /* Green */
     border: none;
     color: white;
-    padding: 12px 38px;
+    padding: 8px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin-top: 30px;
-    font-size: 20px;
+    position: relative;
+    margin-top: 5%;
+    font-size: 24px;
   }
   .buttont2 {
     background-color: #00b3ffb5; /* Green */
@@ -77,10 +81,10 @@
     width: 185px;
     position: absolute;
     left: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 6%;
+    transform: translateX(-50%);
+    margin-top: 18%;
   }
+  
   .border-x2{
     border: 1px solid #ffffff;
   }

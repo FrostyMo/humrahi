@@ -14,7 +14,7 @@ function Service() {
         <div className="container-fluid nav_bg heading_background4">
           <div className="align-center">
             <div className="row">
-              <div className="heading_text centersimple break breakup">
+              <div className="heading_textBig1 centersimple break breakup">
                 It shouldn't be so hard to care for those you love.
               </div>
             </div>
@@ -27,15 +27,8 @@ function Service() {
           <div className="align-center">
             <div className="row">
               <div
-                className="col-md-6"
-                style={{
-                  position: "absolute",
-                  left: "50%",
-                  right: "50%",
-                  transform: "translate(-50%, -50%)",
-                  marginTop: "6%",
-                  fontSize: "24px",
-                }}
+                className="col-md-8 ntextn centersimple breakup"
+                
               >
                 Humrahi is there to assist you with all the things your family
                 might help you with had they been available all the time.
@@ -44,18 +37,9 @@ function Service() {
                 for you with a short visit!
               </div>
               <div
-                className="border-x centersimple "
-                style={{
-                  position: "absolute",
-                  width: "185px",
-                  position: "absolute",
-                  left: "50%",
-                  right: "50%",
-                  transform: "translate(-50%, -50%)",
-                  marginTop: "12%",
-                }}
+                className="border-x  "
               ></div>
-              <div className=" break"></div>
+            
             </div>
           </div>
         </div>
@@ -66,11 +50,11 @@ function Service() {
           <div>
             <img src={home1} alt="img not found"></img>
           </div>
-          <div className=" break">
-            <span className="me-4 ntext" style={{ fontSize: "26px" , fontWeight: 'bold'}}>
+          <div className=" break" style={{marginLeft:"3%"}}>
+            <span className="me-4 heading_textBig1">
               {" "}
               At Your House
-              <div className="ntext2 col-md-7 " style={{ fontSize: "24px" }}>
+              <div className="ntexts col-md-10 " style={{marginTop:"3%"}}>
                 Preparing meals, gardening, light cleaning, helping with pets,
                 and above all making a new friend!
               </div>
@@ -84,11 +68,11 @@ function Service() {
           <div>
             <img src={car} alt="img not found"></img>
           </div>
-          <div className=" break">
-            <span className="me-4 ntext" style={{ fontSize: "26px" , fontWeight: 'bold'}}>
+          <div className=" break" style={{marginLeft:"3%"}}>
+            <span className="me-4 heading_textBig1">
               {" "}
               Around the City
-              <div className="ntext2 col-md-7" style={{ fontSize: "24px" }}>
+              <div className="ntexts col-md-10" style={{ marginTop:"3%" }}>
                  Shopping, trips to friends and family, attending
                 social gatherings, appointments, going out for a drive in the
                 city or setting up rides for you.
@@ -103,11 +87,11 @@ function Service() {
           <div>
             <img src={shop} alt="img not found"></img>
           </div>
-          <div className=" break">
-            <span className="me-4 ntext" style={{ fontSize: "26px" , fontWeight: 'bold'}}>
+          <div className=" break" style={{marginLeft:"3%"}}>
+            <span className="me-4 heading_textBig1">
               {" "}
               Running Errands for You
-              <div className="ntext2 col-md-7" style={{ fontSize: "24px" }}>
+              <div className="ntexts col-md-10" style={{ marginTop:"3%" }}>
               
 Grocery shopping, picking up parcels, shopping for gifts, picking up somethhing from a friend’s or relative’s house
               </div>
@@ -121,11 +105,11 @@ Grocery shopping, picking up parcels, shopping for gifts, picking up somethhing 
           <div>
             <img src={dgital} alt="img not found"></img>
           </div>
-          <div className=" break">
-            <span className="me-4 ntext" style={{ fontSize: "26px" , fontWeight: 'bold'}}>
+          <div className=" break" style={{marginLeft:"3%"}}>
+            <span className="me-4 heading_textBig1">
               {" "}
               Digital
-              <div className="ntext2 col-md-7" style={{ fontSize: "24px" }}>
+              <div className="ntexts col-md-10" style={{ marginTop:"3%" }}>
               
 Teaching how to operate computers, tablets, smartphones, smartTVs
 Both in person and digitally
@@ -140,12 +124,20 @@ Both in person and digitally
         <div className="container-fluid nav_bg heading_background5">
           <div className="align-center">
             <div className="row">
-              <div className="heading_text centersimple">Get Paired Now</div>
-              <div className=" centered-txt">
+              <div
+                className="heading_textBig2 centersimple"
+                style={{ marginTop: "3%" }}
+              >
+                Get Paired Now
+              </div>
+              <div
+                className=" heading_text2sans centersimple"
+                style={{ marginTop: "2%" }}
+              >
                 Call us at 03219390689 or click below to learn more.
               </div>
-              <div className="centersimple break">
-                <NavLink to={"/home"}>
+              <div className="centersimple break" style={{ marginTop: "2%" }}>
+                <NavLink to="/contact">
                   <button type="button" className="buttont">
                     Learn More
                   </button>
