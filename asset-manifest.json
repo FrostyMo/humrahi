@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/humrahi/static/css/main.4b95af3c.css",
-    "main.js": "/humrahi/static/js/main.d12df1df.js",
+    "main.css": "/humrahi/static/css/main.07b22806.css",
+    "main.js": "/humrahi/static/js/main.a519e741.js",
     "static/media/humrahi.png": "/humrahi/static/media/humrahi.8580e82e3345da82f1c2.png",
     "static/media/students.png": "/humrahi/static/media/students.f18d25b203bed31cc9e2.png",
     "static/media/ibm-plex-sans-all-400-normal.woff": "/humrahi/static/media/ibm-plex-sans-all-400-normal.ac37447d88dc924364ce.woff",
@@ -18,12 +18,14 @@
     "static/media/ibm-plex-sans-cyrillic-ext-400-normal.woff2": "/humrahi/static/media/ibm-plex-sans-cyrillic-ext-400-normal.56b6c5df575156819cfa.woff2",
     "static/media/ibm-plex-sans-vietnamese-400-normal.woff2": "/humrahi/static/media/ibm-plex-sans-vietnamese-400-normal.2e4166a1b8ecf1ee5e45.woff2",
     "static/media/ibm-plex-serif-vietnamese-400-normal.woff2": "/humrahi/static/media/ibm-plex-serif-vietnamese-400-normal.42805e7ffdf9b3a3de85.woff2",
+    "static/media/instasvg.svg": "/humrahi/static/media/instasvg.1f4496d273cd029ea2e1297485905204.svg",
     "index.html": "/humrahi/index.html",
-    "main.4b95af3c.css.map": "/humrahi/static/css/main.4b95af3c.css.map",
-    "main.d12df1df.js.map": "/humrahi/static/js/main.d12df1df.js.map"
+    "static/media/fbsvg.svg": "/humrahi/static/media/fbsvg.4a49296f4593d751844e166942e881a5.svg",
+    "main.07b22806.css.map": "/humrahi/static/css/main.07b22806.css.map",
+    "main.a519e741.js.map": "/humrahi/static/js/main.a519e741.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b95af3c.css",
-    "static/js/main.d12df1df.js"
+    "static/css/main.07b22806.css",
+    "static/js/main.a519e741.js"
   ]
 }
