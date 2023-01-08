@@ -20,7 +20,7 @@ function Footer() {
                 <div className="container alignleft ">
                   <div className="break"></div>
                   <div className="ntext gap">
-                    <NavLink style={{ color: "black" }} to="/home">
+                    <NavLink style={{ color: "black" }} to="/">
                       Home
                     </NavLink>
                   </div>
