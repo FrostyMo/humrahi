@@ -6,9 +6,11 @@
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
 }
+
 div {
   white-space: normal;
 }
+
 .navbar {
   background: #fff;
 }
@@ -17,9 +19,11 @@ div {
   font-size: 1.9rem;
   color: #565387;
 }
-.addheight{
+
+.addheight {
   height: 80px;
 }
+
 .nav-item {
   font-size: 1.3rem;
   text-transform: capitalize;
@@ -29,77 +33,87 @@ div {
   font-weight: bold;
   border-bottom: 1px solid #565387;
 }
+
 .heading_title_border {
   border-left: 2px solid #000000c4;
   margin-left: 2%;
   margin-top: 2%;
   position: relative;
-  
+
 }
+
 .navbar a:hover,
 #header .brand-name {
   color: #3498db;
 }
-.ntext{
+
+.ntext {
   color: #000000;
   font-size: 25px;
   font-weight: bold;
   font-family: "IBM Plex Serif";
   position: relative;
 }
-.ntextM{
+
+.ntextM {
   color: #000000;
   font-size: 64px;
   font-weight: lighter;
   font-family: "IBM Plex Serif";
   position: relative;
 }
-.ntexts{
+
+.ntexts {
   color: #000000;
   font-size: 25px;
   font-weight: lighter;
   font-family: "IBM Plex Serif";
   position: relative;
 }
-.ntextn{
+
+.ntextn {
   color: #000000;
-  
+
   font-family: "IBM Plex Serif";
   position: relative;
-font-weight: lighter;
-left: 50%;
-transform: translateX(-50%);
+  font-weight: lighter;
+  left: 50%;
+  transform: translateX(-50%);
   font-size: 24px;
 }
-.ntextP{
+
+.ntextP {
   color: #000000;
   font-family: "IBM Plex Sans";
   position: relative;
-font-weight: lighter;
+  font-weight: lighter;
   font-size: 32px;
   left: 50%;
-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
-.ntextfaq{
+
+.ntextfaq {
   color: #000000;
   font-family: "IBM Plex Sans";
   position: relative;
-font-weight: bold;
+  font-weight: bold;
   font-size: 32px;
 }
-.ntextP2{
+
+.ntextP2 {
   color: #000000;
   font-family: "IBM Plex Sans";
   position: relative;
-font-weight: lighter;
+  font-weight: lighter;
   font-size: 32px;
   left: 50%;
-transform: translateX(-50%);
-display: flex;
+  transform: translateX(-50%);
+  display: flex;
   justify-content: center;
 
 }
-.ntext2{
+
+.ntext2 {
   color: #000000;
   font-size: 20px;
   font-weight: 200;
@@ -107,6 +121,7 @@ display: flex;
   position: relative;
   margin-top: 2%;
 }
+
 .heading_textBig1 {
   color: #000000;
   font-size: 40px;
@@ -114,6 +129,7 @@ display: flex;
   font-family: "IBM Plex Serif";
   position: relative;
 }
+
 .heading_textBigAbt {
   color: #000000;
   font-size: 40px;
@@ -121,32 +137,35 @@ display: flex;
   font-family: "IBM Plex Serif";
   position: relative;
   text-decoration: underline;
-   text-underline-offset: 20px;
+  text-underline-offset: 20px;
 
 }
+
 .heading_textBigB {
   color: #000000;
   font-size: 45px;
   font-weight: bold;
   font-family: "IBM Plex Serif";
   position: relative;
-  
+
 }
+
 .heading_textBigB2 {
   color: #000000;
   font-size: 72px;
   font-weight: bold;
   font-family: "IBM Plex Serif";
   position: relative;
-  
+
 }
+
 .heading_textBig2 {
   color: #000000;
-  font-size: 38px;
+  font-size: 36px;
   font-weight: bold;
   font-family: "IBM Plex Serif";
   position: relative;
-  
+
 }
 
 .heading_text1 {
@@ -155,32 +174,36 @@ display: flex;
   font-weight: bold;
   font-family: "IBM Plex Serif";
   position: relative;
-  
+
 }
+
 .heading_text2 {
   color: #000000;
   font-size: 20px;
   font-weight: lighter;
   font-family: "IBM Plex Serif";
   position: relative;
-  
+
 }
+
 .heading_text2sans {
   color: #000000;
   font-size: 20px;
   font-weight: lighter;
   font-family: "IBM Plex Sans";
   position: relative;
-  
+
 }
+
 .heading_text3 {
   color: #000000;
   font-size: 30px;
   font-weight: lighter;
   font-family: "IBM Plex Serif";
   position: relative;
-  
+
 }
+
 .heading_text3center {
   color: #000000;
   font-size: 30px;
@@ -188,22 +211,27 @@ display: flex;
   font-family: "IBM Plex Serif";
   position: relative;
   left: 50%;
-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
-.break{
-margin-bottom: 4%;
+
+.break {
+  margin-bottom: 4%;
 }
-.break2{
+
+.break2 {
   margin-bottom: 6%;
-  }
+}
+
 .svg-icon {
-  
+
   align-self: center;
 }
+
 .svg-icons2 {
-  height:1em;
-  width:1em;
+  height: 1em;
+  width: 1em;
 }
+
 .svg-icon.svg-baseline svg {
   top: .125em;
   position: relative;
@@ -214,9 +242,11 @@ margin-bottom: 4%;
   height: 80vh;
   margin-top: 70px;
 }
+
 #growth {
-   overflow-y: scroll;
+  overflow-y: scroll;
 }
+
 #header h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
@@ -230,18 +260,20 @@ margin-bottom: 4%;
   font-weight: 300;
   font-family: IBM Plex Sans;
 }
+
 .header2 {
   color: #000000;
   font-size: 22px;
-  font-weight:lighter;
+  font-weight: lighter;
   font-style: normal;
   font-family: IBM Plex Sans;
   margin-top: 20px;
 }
 
-.margin{
+.margin {
   margin-top: 30px;
 }
+
 #header .btn-get-started {
   font-weight: 500;
   font-size: 10px;
@@ -262,21 +294,23 @@ margin-bottom: 4%;
 
 .header-img {
   text-align: right;
- position: relative;
+  position: relative;
   padding: 10px;
 }
+
 .centered {
-  
+
   display: flex;
   justify-content: center;
   text-decoration: underline;
   text-decoration-color: rgb(255, 255, 255);
- 
+
 }
 
-.centre{
+.centre {
   text-align: center;
 }
+
 .centered-txt {
   color: #000000;
   font-size: 17px;
@@ -289,23 +323,29 @@ margin-bottom: 4%;
 #header .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
+
 .heading_background {
-  background-color:  #FFD3AA ;
+  background-color: #FFD3AA;
 }
+
 .heading_background2 {
-  background-color:  #B4D8A4 ;
+  background-color: #B4D8A4;
 }
+
 .heading_background3 {
-  background-color:  #FFFCBA ;
+  background-color: #FFFCBA;
 }
+
 .heading_background4 {
-  background-color:  #BBEFFF ;
+  background-color: #BBEFFF;
 }
+
 .heading_background5 {
-  background-color:  #FFD3AA ;
+  background-color: #FFD3AA;
 }
+
 .heading_background6 {
-  background-color:  #8FCBDE ;
+  background-color: #8FCBDE;
 }
 
 
@@ -314,6 +354,7 @@ margin-bottom: 4%;
   0% {
     transform: translateY(10px);
   }
+
   100% {
     transform: translateY(-10px);
   }
@@ -323,20 +364,25 @@ margin-bottom: 4%;
   0% {
     transform: translateY(10px);
   }
+
   100% {
     transform: translateY(-10px);
   }
 }
+
 @media screen and (min-width: 20em) {
   br {
-    display: none; /* hide the BR tag for wider screens (i.e. disable the line break) */
+    display: none;
+    /* hide the BR tag for wider screens (i.e. disable the line break) */
   }
 }
 
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
+
 .wrapper {
   margin-left: 6%;
   position: relative;
@@ -351,15 +397,19 @@ html, body {
     "c c c c d d d d";
   align-items: start;
 }
+
 .item1 {
   grid-area: a;
 }
+
 .item2 {
   grid-area: b;
 }
+
 .item3 {
   grid-area: c;
 }
+
 .item4 {
   grid-area: d;
 }

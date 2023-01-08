@@ -96,22 +96,17 @@ function Faq() {
       </section>
       <div className="container  ">
         <div className="App">
-          {" "}
-          <div className=" heading_textBig2">Who are the Students?</div>
-          <div className="at-end ntexts">
-            <a
-              onClick={() => {
-                setReadMore(!readMore);
-              }}
-            >
+
+          <div className=" heading_textBig2" style={{ cursor: "pointer" }} onClick={() => {
+            setReadMore(!readMore);
+          }}>Who are the Students?
+            {/* <a className="arrows at-end">
               <img
                 src={linkName}
-                width={15}
-                height={10}
-                className="gap-horizontal"
               ></img>
-            </a>
+            </a> */}
           </div>
+
           {readMore && extraContent1}
           <div className="border-x3 "></div>
         </div>
@@ -119,23 +114,16 @@ function Faq() {
 
       <div className="container  ">
         <div className="App">
-          {" "}
-          <div className="heading_textBig2">
+
+          <div className="heading_textBig2" style={{ cursor: "pointer" }} onClick={() => {
+            setReadMore2(!readMore2);
+          }}>
             What kind of services do you offer?
-          </div>
-          <div className="at-end">
-            <a
-              onClick={() => {
-                setReadMore2(!readMore2);
-              }}
-            >
+            {/* <a className="arrows at-end">
               <img
                 src={linkName2}
-                width={15}
-                height={10}
-                className="gap-horizontal"
               ></img>
-            </a>
+            </a> */}
           </div>
           {readMore2 && extraContent2}
           <div className="border-x3 "></div>
@@ -144,22 +132,17 @@ function Faq() {
 
       <div className="container  ">
         <div className="App">
-          {" "}
-          <div className="heading_textBig2">How do I sign up?</div>
-          <div className="at-end">
-            <a
-              onClick={() => {
-                setReadMore3(!readMore3);
-              }}
-            >
+
+          <div className="heading_textBig2" style={{ cursor: "pointer" }} onClick={() => {
+            setReadMore3(!readMore3);
+          }}>How do I sign up?
+            {/* <a className="arrows at-end">
               <img
                 src={linkName3}
-                width={15}
-                height={10}
-                className="gap-horizontal"
               ></img>
-            </a>
+            </a> */}
           </div>
+
           {readMore3 && extraContent3}
           <div className="border-x3 "></div>
         </div>
@@ -167,24 +150,18 @@ function Faq() {
 
       <div className="container  ">
         <div className="App">
-          {" "}
-          <div className="heading_textBig2">
+
+          <div className="heading_textBig2" style={{ cursor: "pointer" }} onClick={() => {
+            setReadMore4(!readMore4);
+          }}>
             How far in advance do I need to book a companion?
-          </div>
-          <div className="at-end">
-            <a
-              onClick={() => {
-                setReadMore4(!readMore4);
-              }}
-            >
+            {/* <a className="arrows at-end">
               <img
                 src={linkName4}
-                width={15}
-                height={10}
-                className="gap-horizontal"
               ></img>
-            </a>
+            </a> */}
           </div>
+
           {readMore4 && extraContent4}
           <div className="border-x3 "></div>
         </div>
@@ -192,24 +169,18 @@ function Faq() {
 
       <div className="container  ">
         <div className="App">
-          {" "}
-          <div className="heading_textBig2">
+
+          <div className="heading_textBig2" style={{ cursor: "pointer" }} onClick={() => {
+            setReadMore5(!readMore5);
+          }}>
             Do we cater to same-day requests?
-          </div>
-          <div className="at-end">
-            <a
-              onClick={() => {
-                setReadMore5(!readMore5);
-              }}
-            >
+            {/* <a className="arrows at-end">
               <img
                 src={linkName5}
-                width={15}
-                height={10}
-                className="gap-horizontal"
               ></img>
-            </a>
+            </a> */}
           </div>
+
           {readMore5 && extraContent5}
           <div className="border-x3 "></div>
         </div>
@@ -217,25 +188,19 @@ function Faq() {
 
       <div className="container breakd ">
         <div className="App">
-          {" "}
-          <div className="heading_textBig2">
-            {" "}
+
+          <div className="heading_textBig2 " style={{ cursor: "pointer" }} onClick={() => {
+            setReadMore6(!readMore6);
+          }}>
+
             Do I have to choose my companion beforehand?
-          </div>
-          <div className="at-end">
-            <a
-              onClick={() => {
-                setReadMore6(!readMore6);
-              }}
-            >
+            {/* <a className="arrows at-end">
               <img
                 src={linkName6}
-                width={15}
-                height={10}
-                className="gap-horizontal"
               ></img>
-            </a>
+            </a> */}
           </div>
+
           {readMore6 && extraContent6}
           <div className="border-x3 "></div>
         </div>
