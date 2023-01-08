@@ -47,6 +47,13 @@ div {
   font-family: "IBM Plex Serif";
   position: relative;
 }
+.ntextM{
+  color: #000000;
+  font-size: 64px;
+  font-weight: lighter;
+  font-family: "IBM Plex Serif";
+  position: relative;
+}
 .ntexts{
   color: #000000;
   font-size: 25px;
@@ -64,7 +71,34 @@ left: 50%;
 transform: translateX(-50%);
   font-size: 24px;
 }
+.ntextP{
+  color: #000000;
+  font-family: "IBM Plex Sans";
+  position: relative;
+font-weight: lighter;
+  font-size: 32px;
+  left: 50%;
+transform: translateX(-50%);
+}
+.ntextfaq{
+  color: #000000;
+  font-family: "IBM Plex Sans";
+  position: relative;
+font-weight: bold;
+  font-size: 32px;
+}
+.ntextP2{
+  color: #000000;
+  font-family: "IBM Plex Sans";
+  position: relative;
+font-weight: lighter;
+  font-size: 32px;
+  left: 50%;
+transform: translateX(-50%);
+display: flex;
+  justify-content: center;
 
+}
 .ntext2{
   color: #000000;
   font-size: 20px;
@@ -79,11 +113,28 @@ transform: translateX(-50%);
   font-weight: bold;
   font-family: "IBM Plex Serif";
   position: relative;
-  
+}
+.heading_textBigAbt {
+  color: #000000;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "IBM Plex Serif";
+  position: relative;
+  text-decoration: underline;
+   text-underline-offset: 20px;
+
 }
 .heading_textBigB {
   color: #000000;
   font-size: 45px;
+  font-weight: bold;
+  font-family: "IBM Plex Serif";
+  position: relative;
+  
+}
+.heading_textBigB2 {
+  color: #000000;
+  font-size: 72px;
   font-weight: bold;
   font-family: "IBM Plex Serif";
   position: relative;

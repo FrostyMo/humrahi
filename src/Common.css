@@ -79,10 +79,9 @@
   .border-x{
     border: 1px solid #000000;
     width: 185px;
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 18%;
   }
   
   .border-x2{
@@ -92,7 +91,7 @@
 
 .serviceBox-start{
   margin-left: 20%;
-  margin-top: 15%;
+  margin-top: 4%;
  
 }
 .serviceBox{

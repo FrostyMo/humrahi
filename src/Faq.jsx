@@ -18,7 +18,7 @@ function Faq() {
   const [readMore5, setReadMore5] = useState(false);
   const [readMore6, setReadMore6] = useState(false);
   const extraContent1 = (
-    <div className="extra-content col-md-10">
+    <div className="extra-content col-md-10" style={{ fontSize: "25px" }}>
       Our companions are university students who want to give back to the
       community while earning flexible income in the process, and they love
       spending time with the elderly!
@@ -26,7 +26,10 @@ function Faq() {
   );
 
   const extraContent2 = (
-    <div className="extra-content col-md-10">
+    <div
+      className="extra-content col-md-10 ntexts"
+      style={{ fontSize: "25px" }}
+    >
       Our students are devoted and willing to do whatever it takes to support
       your continued independence, connectedness, and happiness. We provide an
       hourly companionship where either the student would visit and spend time
@@ -42,7 +45,7 @@ function Faq() {
     </div>
   );
   const extraContent3 = (
-    <div className="extra-content col-md-10">
+    <div className="extra-content col-md-10" style={{ fontSize: "25px" }}>
       It's straightforward! Just give us a call or contact us through email and
       we'll take care of the arrangement for you. Once we contact you, you can
       provide us with details regarding the additional services you're looking
@@ -50,19 +53,19 @@ function Faq() {
     </div>
   );
   const extraContent4 = (
-    <div className="extra-content col-md-8">
+    <div className="extra-content col-md-8" style={{ fontSize: "25px" }}>
       We recommend that you book a companion a few days in advance to make the
       process hassle-free!
     </div>
   );
   const extraContent5 = (
-    <div className="extra-content col-md-10">
+    <div className="extra-content col-md-10" style={{ fontSize: "25px" }}>
       Yes, we do try our best! However, we can't guarantee that the request will
       be filled each time since students are busy with their own schedules.
     </div>
   );
   const extraContent6 = (
-    <div className="extra-content col-md-10">
+    <div className="extra-content col-md-10" style={{ fontSize: "25px" }}>
       One of the benefits of our service is that you are relieved of the stress
       of having to interview or choose your companion: we'll handle it for you!
       You can feel confident that a dependable, caring student would
@@ -84,10 +87,7 @@ function Faq() {
         <div className="container-fluid nav_bg heading_background5">
           <div className="align-center">
             <div className="row">
-              <div
-                className="heading_text centersimple"
-                style={{ marginTop: "50px", marginBottom: "50px" }}
-              >
+              <div className="ntextM centersimple break breakup">
                 Frequently Asked Questions
               </div>
             </div>
@@ -97,8 +97,8 @@ function Faq() {
       <div className="container  ">
         <div className="App">
           {" "}
-          <div className="dd">Who are the Students?</div>
-          <div className="at-end">
+          <div className=" heading_textBig2">Who are the Students?</div>
+          <div className="at-end ntexts">
             <a
               onClick={() => {
                 setReadMore(!readMore);
@@ -120,7 +120,9 @@ function Faq() {
       <div className="container  ">
         <div className="App">
           {" "}
-          <div className="dd">What kind of services do you offer?</div>
+          <div className="heading_textBig2">
+            What kind of services do you offer?
+          </div>
           <div className="at-end">
             <a
               onClick={() => {
@@ -143,7 +145,7 @@ function Faq() {
       <div className="container  ">
         <div className="App">
           {" "}
-          <div className="dd">How do I sign up?</div>
+          <div className="heading_textBig2">How do I sign up?</div>
           <div className="at-end">
             <a
               onClick={() => {
@@ -166,7 +168,7 @@ function Faq() {
       <div className="container  ">
         <div className="App">
           {" "}
-          <div className="dd">
+          <div className="heading_textBig2">
             How far in advance do I need to book a companion?
           </div>
           <div className="at-end">
@@ -191,7 +193,9 @@ function Faq() {
       <div className="container  ">
         <div className="App">
           {" "}
-          <div className="dd">Do we cater to same-day requests?</div>
+          <div className="heading_textBig2">
+            Do we cater to same-day requests?
+          </div>
           <div className="at-end">
             <a
               onClick={() => {
@@ -214,7 +218,7 @@ function Faq() {
       <div className="container breakd ">
         <div className="App">
           {" "}
-          <div className="dd">
+          <div className="heading_textBig2">
             {" "}
             Do I have to choose my companion beforehand?
           </div>
@@ -241,9 +245,9 @@ function Faq() {
         <div className="container-fluid nav_bg heading_background2">
           <div className="col-10 mx-auto">
             <div className="row">
-              <div className="col-md-6 heading_text">
+              <div className="col-md-6 heading_textBig2 breakup break">
                 Contact Us Now!
-                <div className="header2">
+                <div className="ntexts col-md-15">
                   We hope you've found this page informative, but if you still
                   have questions, we're always happy to help. Feel free to give
                   us a call at 310-853-8997 or email us at fawfaw@gmail.com and
@@ -259,11 +263,11 @@ function Faq() {
                 </div>
               </div>
 
-              <div className="col-lg-6   header-img">
+              <div className="col-lg-6   header-img breakup">
                 <img
                   src={web}
-                  width={359}
-                  height={299}
+                  width={500}
+                  height={320}
                   className="img-fluid animated"
                   alt="HomeImg"
                 />
