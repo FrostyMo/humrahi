@@ -7,6 +7,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Service from "./Service";
 import Navbar from "./Navbar";
+import Contactc from "./Contactc";
 import How from "./how"
 import FAQ from "./Faq"
 import Becompanion from "./Becompanion"
@@ -24,6 +25,7 @@ function App() {
         <Route exact path='/becompanion' element={<Becompanion/>} />
         <Route exact path='/faq' element={<FAQ/>} />
         <Route exact path='/contact' element={<Contact/>} />
+        <Route exact path='/contactc' element={<Contactc/>} />
         <Route path="/" element={<Navigate replace to={<Home/>} />} />
       </Routes>
     </>

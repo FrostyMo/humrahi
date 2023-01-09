@@ -21,8 +21,8 @@ function Contact() {
       <div className="box centre breakup break">
         <div className="container  centre break">
           <div className="mt-3">
-            <NavLink to="/">
-              <button type="button" className="buttont">
+            <NavLink to="/contactc">
+              <button type="button" className="buttont3">
                 Providing Services
               </button>
             </NavLink>
@@ -33,7 +33,7 @@ function Contact() {
         <div className="container centre  break">
         <div className="mt-3">
             <NavLink to="/">
-              <button type="button" className="buttont">
+              <button type="button" className="buttont3">
                 Receiving Services
               </button>
             </NavLink>

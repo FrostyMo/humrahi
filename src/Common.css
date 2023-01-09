@@ -46,6 +46,18 @@
     margin-top: 5%;
     font-size: 24px;
   }
+  .buttont3 {
+    background-color: #D9D9D9; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+  
+    position: relative;
+    margin-top: 5%;
+    font-size: 26px;
+  }
   .buttont2 {
     background-color: #00b3ffb5; /* Green */
     border: none;
