@@ -32,7 +32,7 @@ function Contact() {
         </div>
         <div className="container centre  break">
         <div className="mt-3">
-            <NavLink to="/">
+            <NavLink to="/contacto">
               <button type="button" className="buttont3">
                 Receiving Services
               </button>
