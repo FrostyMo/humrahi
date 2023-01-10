@@ -7,7 +7,7 @@ function Home() {
     <>
       <Common
         name="A companionship service between
-        univeristy students and the elderly"
+        university students and the elderly"
         imgsrc={web}
         imgsrc2={home}
         visit="/contact"
