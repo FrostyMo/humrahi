@@ -46,6 +46,10 @@
     margin-top: 5%;
     font-size: 24px;
   }
+  .buttont:hover {
+    background-color: #85bad0b5; 
+    color: rgb(2, 2, 2);
+  }
   .buttont3 {
     background-color: #D9D9D9; /* Green */
     border: none;
@@ -58,6 +62,10 @@
     margin-top: 5%;
     font-size: 26px;
   }
+  .buttont3:hover {
+    background-color: #6a6464; /* Green */
+    color: rgb(255, 255, 255);
+  }
   .buttont2 {
     background-color: #00b3ffb5; /* Green */
     border: none;
@@ -68,6 +76,11 @@
     font-size: 20px;
     width: 150px;
     margin-left: auto;
+    transition-duration: 0.4s;
+  }
+  .buttont2:hover {
+    background-color: #85bad0b5; /* Green */
+    color: rgb(2, 2, 2);
   }
   .gap{
     margin-top: 20px;
