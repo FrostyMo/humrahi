@@ -12,9 +12,9 @@ function Footer() {
         <div className="container-fluid nav_bg heading_background4">
           <div className="align-center">
             <div className="row">
-              <div className="box centre break">
+              <div className="box centre break footer">
                 <div className="container centersimple vertical-center ">
-                  <img src={logo} width={310} height={120}></img>
+                  <img src={logo} width={"70%"} height={"50%"}></img>
                 </div>
                 <div className="width2"></div>
                 <div className="container alignleft ">
