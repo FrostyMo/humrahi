@@ -304,7 +304,7 @@ div {
   justify-content: center;
   text-decoration: underline;
   text-decoration-color: rgb(255, 255, 255);
-
+  text-underline-offset: 20px;
 }
 
 .centre {

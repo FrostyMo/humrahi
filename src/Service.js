@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 import "./index.css";
 import "./Common.css";
 import Footer from "./Footer";
-import home1 from "../src/Pictures/Vector-3.png";
-import shop from "../src/Pictures/Vector-2.png";
-import car from "../src/Pictures/Vector-1.png";
-import dgital from "../src/Pictures/Vector.png";
+import home1 from "../src/Pictures/Home1.svg";
+import shop from "../src/Pictures/Shop.svg";
+import car from "../src/Pictures/Car.svg";
+import dgital from "../src/Pictures/dig.svg";
 function Service() {
   return (
     <>
@@ -26,20 +26,14 @@ function Service() {
         <div className="container-fluid nav_bg">
           <div className="align-center">
             <div className="row">
-              <div
-                className="col-md-8 ntextn centersimple breakup"
-                
-              >
+              <div className="col-md-8 ntextn centersimple breakup">
                 Humrahi is there to assist you with all the things your family
                 might help you with had they been available all the time.
                 Humrahi makes it simple to connect you or a loved one to a
                 university student who can make all the difference in the world
                 for you with a short visit!
               </div>
-              <div
-                className="border-x  "
-              ></div>
-            
+              <div className="border-x  "></div>
             </div>
           </div>
         </div>
@@ -50,11 +44,11 @@ function Service() {
           <div>
             <img src={home1} alt="img not found"></img>
           </div>
-          <div className=" break" style={{marginLeft:"3%"}}>
+          <div className=" break" style={{ marginLeft: "3%" }}>
             <span className="me-4 heading_textBig1">
               {" "}
               At Your House
-              <div className="ntexts col-md-10 " style={{marginTop:"3%"}}>
+              <div className="ntexts col-md-10 " style={{ marginTop: "3%" }}>
                 Preparing meals, gardening, light cleaning, helping with pets,
                 and above all making a new friend!
               </div>
@@ -68,14 +62,14 @@ function Service() {
           <div>
             <img src={car} alt="img not found"></img>
           </div>
-          <div className=" break" style={{marginLeft:"3%"}}>
+          <div className=" break" style={{ marginLeft: "3%" }}>
             <span className="me-4 heading_textBig1">
               {" "}
               Around the City
-              <div className="ntexts col-md-10" style={{ marginTop:"3%" }}>
-                 Shopping, trips to friends and family, attending
-                social gatherings, appointments, going out for a drive in the
-                city or setting up rides for you.
+              <div className="ntexts col-md-10" style={{ marginTop: "3%" }}>
+                Shopping, trips to friends and family, attending social
+                gatherings, appointments, going out for a drive in the city or
+                setting up rides for you.
               </div>
             </span>
           </div>
@@ -87,13 +81,13 @@ function Service() {
           <div>
             <img src={shop} alt="img not found"></img>
           </div>
-          <div className=" break" style={{marginLeft:"3%"}}>
+          <div className=" break" style={{ marginLeft: "3%" }}>
             <span className="me-4 heading_textBig1">
               {" "}
               Running Errands for You
-              <div className="ntexts col-md-10" style={{ marginTop:"3%" }}>
-              
-Grocery shopping, picking up parcels, shopping for gifts, picking up somethhing from a friend’s or relative’s house
+              <div className="ntexts col-md-10" style={{ marginTop: "3%" }}>
+                Grocery shopping, picking up parcels, shopping for gifts,
+                picking up somethhing from a friend’s or relative’s house
               </div>
             </span>
           </div>
@@ -105,14 +99,13 @@ Grocery shopping, picking up parcels, shopping for gifts, picking up somethhing 
           <div>
             <img src={dgital} alt="img not found"></img>
           </div>
-          <div className=" break" style={{marginLeft:"3%"}}>
+          <div className=" break" style={{ marginLeft: "3%" }}>
             <span className="me-4 heading_textBig1">
               {" "}
               Digital
-              <div className="ntexts col-md-10" style={{ marginTop:"3%" }}>
-              
-Teaching how to operate computers, tablets, smartphones, smartTVs
-Both in person and digitally
+              <div className="ntexts col-md-10" style={{ marginTop: "3%" }}>
+                Teaching how to operate computers, tablets, smartphones,
+                smartTVs Both in person and digitally
               </div>
             </span>
             <div className=" break"></div>
