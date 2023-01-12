@@ -41,7 +41,7 @@ function About() {
         <div className="container-fluid nav_bg">
           <div className="align-center breakup ">
             <div className="row ">
-              <div className="heading_textBigAbt centersimple">
+              <div className="heading_textBigAbt centersimple" style={{textDecoration:"underline", textUnderlineOffset:"20px"}}>
                 Our Story is Deeply Personal
               </div>
               {/* <div className="border-x centersimple "></div> */}

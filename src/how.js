@@ -13,19 +13,8 @@ function how() {
         <div className="container-fluid nav_bg heading_background2">
           <div className="align-center">
             <div className="row">
-              <div className="heading_textBigB centersimple breakup">How it Works</div>
-              <div
-                className="border-x2"
-                style={{
-                  
-                  width: "185px",
-                  position: "absolute",
-                  left: "50%",
-                  right: "50%",
-                  transform: "translate(-50%, -50%)",
-                  marginTop: "9%",
-                }}
-              ></div>
+              <div className="heading_textBigB centersimple breakup" style={{textDecoration:"underline", textUnderlineOffset:"20px" , textDecorationColor:"white"}}>How it Works</div>
+              
               <div className="col-md-5 ntextn" style={{marginTop:"4%",textAlign:"center"}}>
                 Humrahi offers older adults companionship to encourage them to
                 live life to the fullest!
