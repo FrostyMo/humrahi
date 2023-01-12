@@ -80,12 +80,12 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
       </div>
 
       <div class="wrapper" style={{ marginBottom: "8%" }}>
-        <div class="item1">
+        <figure class="item1">
           <div class="box">
             <div style={{ marginTop: "3%" }}>
               <img src={home1} alt="img not found"></img>
             </div>
-            <div className=" heading_title_border">
+            <div className="heading_title_border">
               <span
                 className="me-4 heading_textBig2"
                 style={{ marginLeft: "4%" }}
@@ -101,16 +101,15 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
                 </div>
               </span>
             </div>
-            <div className="addheight"></div>
-            <div></div>
+            {/* <div className="addheight"></div> */}
           </div>
-        </div>
-        <div class="item2">
+        </figure>
+        <figure class="item2">
           <div class="box">
             <div style={{ marginTop: "3%" }}>
               <img src={shop} alt="img not found"></img>
             </div>
-            <div className=" heading_title_border ">
+            <div className="heading_title_border ">
               <span
                 className="me-4 heading_textBig2"
                 style={{ marginLeft: "4%" }}
@@ -127,8 +126,8 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
               </span>
             </div>
           </div>
-        </div>
-        <div class="item3">
+        </figure>
+        <figure class="item3">
           <div class="box">
             <div style={{ marginTop: "3%" }}>
               <img src={car} alt="img not found"></img>
@@ -151,8 +150,8 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
               </span>
             </div>
           </div>
-        </div>
-        <div class="item4">
+        </figure>
+        <figure class="item4">
           <div class="box">
             <div style={{ marginTop: "3%" }}>
               <img src={dgital} alt="img not found"></img>
@@ -166,7 +165,7 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
                 Digital
                 <div
                   className="heading_text2 col-md-10 "
-                  style={{ marginLeft: "4%", marginTop: "5%" }}
+                  style={{ marginLeft: "4%", marginTop: "5%", height: 'fixed' }}
                 >
                   Teaching how to operate computers, tablets, smartphones,
                   smartTVs Both in person and digitally
@@ -174,7 +173,7 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
               </span>
             </div>
           </div>
-        </div>
+        </figure>
       </div>
 
       <section className="align-items-center">

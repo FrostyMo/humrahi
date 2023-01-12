@@ -171,7 +171,6 @@ div {
   font-weight: bold;
   font-family: "IBM Plex Serif";
   position: relative;
-
 }
 
 .heading_text1 {
@@ -395,14 +394,12 @@ body {
   margin-left: 6%;
   position: relative;
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  gap: 10px;
-  grid-auto-rows: 100px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10;
+  grid-template-rows: 1fr auto auto auto;
   grid-template-areas:
-    "a a a a b b b b"
-    "a a a a b b b b"
-    "c c c c d d d d"
-    "c c c c d d d d";
+    "a b"
+    "c d";
   align-items: start;
 }
 

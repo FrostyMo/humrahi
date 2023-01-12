@@ -1,138 +1,165 @@
-.headingtxt2{
-    margin-right: 50%;
-    margin-left: 50%;
+.headingtxt2 {
+  margin-right: 50%;
+  margin-left: 50%;
 }
+
 .box {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    position: relative;
-    white-space: nowrap;
-  }
-  .vertical-center {
-   
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  position: relative;
+  white-space: normal;
+}
+
+.vertical-center {
+
   padding-top: 90px;
-  
-  }
-  .txt2 {
-    color: #000000;
-    font-size: 23px;
-    font-style: normal;
-    font-weight: 10;
-    font-family: IBM Plex Sans;
-    margin-top: 20px;
-  }
-  .centersimple{
-    display: flex;
+
+}
+
+.txt2 {
+  color: #000000;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 10;
+  font-family: IBM Plex Sans;
+  margin-top: 20px;
+}
+
+.centersimple {
+  display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  }
-  .alignleft{
-    text-align: left;
-  }
-  .centre2{
-    align-items: center;
-  }
-  .buttont {
-    background-color: #00b3ffb5; /* Green */
-    border: none;
-    color: white;
-    padding: 8px 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-    margin-top: 5%;
-    font-size: 24px;
-  }
-  .buttont:hover {
-    background-color: #85bad0b5; 
-    color: rgb(2, 2, 2);
-  }
-  .buttont3 {
-    background-color: #D9D9D9; /* Green */
-    border: none;
-    color: black;
-    padding: 15px 50px;
-    text-align: center;
-    text-decoration: none;
-  
-    position: relative;
-    margin-top: 5%;
-    font-size: 26px;
-  }
-  .buttont3:hover {
-    background-color: #6a6464; /* Green */
-    color: rgb(255, 255, 255);
-  }
-  .buttont2 {
-    background-color: #00b3ffb5; /* Green */
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    width: 150px;
-    margin-left: auto;
-    transition-duration: 0.4s;
-  }
-  .buttont2:hover {
-    background-color: #85bad0b5; /* Green */
-    color: rgb(2, 2, 2);
-  }
-  .gap{
-    margin-top: 20px;
-    }
-.gap-horizontal{
-    margin-left: 30px;
 }
-.width2{
+
+.alignleft {
+  text-align: left;
+}
+
+.centre2 {
+  align-items: center;
+}
+
+.buttont {
+  background-color: #00b3ffb5;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 8px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  margin-top: 5%;
+  font-size: 24px;
+}
+
+.buttont:hover {
+  background-color: #85bad0b5;
+  color: rgb(2, 2, 2);
+}
+
+.buttont3 {
+  background-color: #D9D9D9;
+  /* Green */
+  border: none;
+  color: black;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+
+  position: relative;
+  margin-top: 5%;
+  font-size: 26px;
+}
+
+.buttont3:hover {
+  background-color: #6a6464;
+  /* Green */
+  color: rgb(255, 255, 255);
+}
+
+.buttont2 {
+  background-color: #00b3ffb5;
+  /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  width: 150px;
+  margin-left: auto;
+  transition-duration: 0.4s;
+}
+
+.buttont2:hover {
+  background-color: #85bad0b5;
+  /* Green */
+  color: rgb(2, 2, 2);
+}
+
+.gap {
+  margin-top: 20px;
+}
+
+.gap-horizontal {
+  margin-left: 30px;
+}
+
+.width2 {
   margin-left: 40px;
 }
-.nav-link{
-  
+
+.nav-link {
+
   color: #000000 !important;
 }
-.breakup{
+
+.breakup {
   margin-top: 40px;
-  }
-  .breakup2{
-    margin-top: 120px;
-    }
-  .border-x{
-    border: 1px solid #000000;
-    width: 185px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .border-x2{
-    border: 1px solid #ffffff;
-  }
+}
+
+.breakup2 {
+  margin-top: 120px;
+}
+
+.border-x {
+  border: 1px solid #000000;
+  width: 185px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.border-x2 {
+  border: 1px solid #ffffff;
+}
 
 
-.serviceBox-start{
+.serviceBox-start {
   margin-left: 20%;
   margin-top: 4%;
- 
+
 }
-.serviceBox{
+
+.serviceBox {
   margin-left: 20%;
-  
-  
+
+
 }
+
 .centered-txt22 {
   color: #000000;
   font-size: 23px;
   font-family: Roboto;
- margin-bottom: 30px;
+  margin-bottom: 30px;
   text-align: center;
- 
+
 }
-.cent{
+
+.cent {
   color: #000000;
   font-size: 23px;
   font-family: Roboto;
@@ -143,6 +170,7 @@
   transform: translate(-50%, -50%);
   margin-top: 100px;
 }
+
 .centered-txt {
   color: #000000;
   font-size: 40px;
@@ -152,7 +180,8 @@
 
   text-align: center;
 }
-.footer{
+
+.footer {
   width: 100%;
   display: flex;
   position: relative;
