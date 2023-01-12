@@ -9,7 +9,7 @@ function Navbar() {
         <div className="row">
           <nav className="navbar navbar-expand-lg navbar-header">
             <NavLink className="navbar-brand" to="/"></NavLink>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <button className="navbar-toggler me-auto" type="button" data-bs-toggle="collapse"
               data-bs-target=".navbar-collapse">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -84,7 +84,7 @@ function Navbar() {
             </div>
           </nav>
         </div>
-      </div>
+      </div >
     </>
   );
 }
