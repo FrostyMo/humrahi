@@ -3,12 +3,12 @@ import { NavLink } from "react-router-dom";
 import "./index.css";
 import "./Common.css";
 import Footer from "./Footer";
-import dgital from "../src/Pictures/Vector.png";
-import emo from "../src/Pictures/emo.png";
-import variety from "../src/Pictures/variety.png";
-import time from "../src/Pictures/time.png";
-import connect from "../src/Pictures/connect.png";
-import reward from "../src/Pictures/reward.png";
+import dgital from "../src/Pictures/dig.svg";
+import emo from "../src/Pictures/Smile.svg";
+import variety from "../src/Pictures/Variety.svg";
+import time from "../src/Pictures/Time.svg";
+import connect from "../src/Pictures/Connect.svg";
+import reward from "../src/Pictures/Reward.svg";
 function Becompanion() {
   return (
     <>
