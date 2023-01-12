@@ -9,7 +9,8 @@ function Navbar() {
         <div className="row">
           <nav className="navbar navbar-expand-lg navbar-header">
             <NavLink className="navbar-brand" to="/"></NavLink>
-            <button className="navbar-toggler" type="button">
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse">
               <span className="navbar-toggler-icon"></span>
             </button>
             <img src={logo} width={200} height={70}></img>
