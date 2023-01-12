@@ -97,7 +97,7 @@ function Faq() {
       <div className="container  ">
         <div className="App">
 
-          <div className=" heading_textBig2" style={{ cursor: "pointer" }} onClick={() => {
+          <div className="faqText" style={{ cursor: "pointer" }} onClick={() => {
             setReadMore(!readMore);
           }}>Who are the Students?
             {/* <a className="arrows at-end">
@@ -115,7 +115,7 @@ function Faq() {
       <div className="container  ">
         <div className="App">
 
-          <div className="heading_textBig2" style={{ cursor: "pointer" }} onClick={() => {
+          <div className="faqText" style={{ cursor: "pointer" }} onClick={() => {
             setReadMore2(!readMore2);
           }}>
             What kind of services do you offer?
@@ -133,7 +133,7 @@ function Faq() {
       <div className="container  ">
         <div className="App">
 
-          <div className="heading_textBig2" style={{ cursor: "pointer" }} onClick={() => {
+          <div className="faqText" style={{ cursor: "pointer" }} onClick={() => {
             setReadMore3(!readMore3);
           }}>How do I sign up?
             {/* <a className="arrows at-end">
@@ -151,7 +151,7 @@ function Faq() {
       <div className="container  ">
         <div className="App">
 
-          <div className="heading_textBig2" style={{ cursor: "pointer" }} onClick={() => {
+          <div className="faqText" style={{ cursor: "pointer" }} onClick={() => {
             setReadMore4(!readMore4);
           }}>
             How far in advance do I need to book a companion?
@@ -170,7 +170,7 @@ function Faq() {
       <div className="container  ">
         <div className="App">
 
-          <div className="heading_textBig2" style={{ cursor: "pointer" }} onClick={() => {
+          <div className="faqText" style={{ cursor: "pointer" }} onClick={() => {
             setReadMore5(!readMore5);
           }}>
             Do we cater to same-day requests?
@@ -189,7 +189,7 @@ function Faq() {
       <div className="container breakd ">
         <div className="App">
 
-          <div className="heading_textBig2 " style={{ cursor: "pointer" }} onClick={() => {
+          <div className="faqText " style={{ cursor: "pointer" }} onClick={() => {
             setReadMore6(!readMore6);
           }}>
 

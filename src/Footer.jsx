@@ -4,6 +4,8 @@ import "./Common.css";
 import logo from "../src/Pictures/logo.png";
 import fb from "../src/Pictures/fbsvg.svg";
 import insta from "../src/Pictures/instasvg.svg";
+import call from "../src/Pictures/phone2.png"
+import email from "../src/Pictures/mail.svg"
 import { NavLink } from "react-router-dom";
 function Footer() {
   return (
@@ -59,7 +61,7 @@ function Footer() {
 
                 <div className="container alignleft ">
                   <div className="break"></div>
-                  <a href="https://www.facebook.com">
+                  <a href="https://www.facebook.com" className="gap">
                     <img
                       src={fb}
                       width={40}
@@ -67,7 +69,7 @@ function Footer() {
                       className="gap-horizontal"
                     ></img>
                   </a>
-                  <a href=" https://www.instagram.com">
+                  <a href=" https://www.instagram.com" className="gap">
                     <img
                       src={insta}
                       width={40}
@@ -75,14 +77,22 @@ function Footer() {
                       className="gap-horizontal"
                     ></img>
                   </a>
-                  <div className="ntext gap">03219390689 </div>
-                  <div className="ntext"> 03232323232</div>
                   <div className="ntext gap">
-                    <a
-                      style={{ color: "black" }}
-                      href="https://myaccount.google.com"
-                    >
-                      humrahi.official1@gmail.com
+                    <a href="tel:03219390689" className="gap">
+                      <img
+                        src={call}
+                        width={40}
+                        height={40}
+                        className="gap-horizontal"
+                      ></img>
+                    </a>
+                    <a href="mailto:humrahi.official1@gmail.com" className="gap">
+                      <img
+                        src={email}
+                        width={40}
+                        height={40}
+                        className="gap-horizontal"
+                      ></img>
                     </a>
                   </div>
                 </div>

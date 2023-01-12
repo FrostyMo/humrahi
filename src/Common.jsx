@@ -83,14 +83,13 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
         <figure class="item1">
           <div class="box">
             <div style={{ marginTop: "3%" }}>
-              <img src={home1} alt="img not found"></img>
+              <img src={home1} alt="img not found" style={{ height: '3.2vh', width: '3.2vh' }}></img>
             </div>
             <div className="heading_title_border">
               <span
                 className="me-4 heading_textBig2"
                 style={{ marginLeft: "4%" }}
               >
-                {" "}
                 At Your House
                 <div
                   className="heading_text2 col-md-10 "
@@ -107,14 +106,14 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
         <figure class="item2">
           <div class="box">
             <div style={{ marginTop: "3%" }}>
-              <img src={shop} alt="img not found"></img>
+              <img src={shop} alt="img not found" style={{ height: '3.2vh', width: '3.2vh' }}></img>
             </div>
             <div className="heading_title_border ">
               <span
                 className="me-4 heading_textBig2"
                 style={{ marginLeft: "4%" }}
               >
-                {" "}
+
                 Running Errands For You
                 <div
                   className="heading_text2 col-md-11 "
@@ -130,14 +129,14 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
         <figure class="item3">
           <div class="box">
             <div style={{ marginTop: "3%" }}>
-              <img src={car} alt="img not found"></img>
+              <img src={car} alt="img not found" style={{ height: '3.2vh', width: '3.2vh' }}></img>
             </div>
             <div className=" heading_title_border ">
               <span
                 className="me-4 heading_textBig2"
                 style={{ marginLeft: "4%" }}
               >
-                {" "}
+
                 Around Your City
                 <div
                   className="heading_text2 col-md-10 "
@@ -154,18 +153,18 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
         <figure class="item4">
           <div class="box">
             <div style={{ marginTop: "3%" }}>
-              <img src={dgital} alt="img not found"></img>
+              <img src={dgital} alt="img not found" style={{ height: '3.2vh', width: '3.2vh' }}></img>
             </div>
             <div className=" heading_title_border ">
               <span
                 className="me-4 heading_textBig2"
                 style={{ marginLeft: "4%" }}
               >
-                {" "}
+
                 Digital
                 <div
                   className="heading_text2 col-md-10 "
-                  style={{ marginLeft: "4%", marginTop: "5%", height: 'fixed' }}
+                  style={{ marginLeft: "4%", marginTop: "5%" }}
                 >
                   Teaching how to operate computers, tablets, smartphones,
                   smartTVs Both in person and digitally
@@ -180,7 +179,7 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
         <div className="container-fluid nav_bg heading_background2">
           <div className="align-center">
             <div className="row">
-              <div className="heading_textBig2 centered">How it Works</div>
+              <div className="heading_textBig1 centered">How it Works</div>
               <div
                 className=" heading_text2 centersimple"
                 style={{ marginTop: "3%" }}
@@ -229,10 +228,10 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
         <div className="container-fluid nav_bg">
           <div className="col-10 mx-auto">
             <div className="row">
-              <div className="col-md-7 heading_text1 vertical-center ">
+              <div className="col-md-7 heading_textBig1 vertical-center ">
                 Who are the student companions?
                 <div
-                  className="heading_text3 col-md-11 "
+                  className="heading_text2 col-md-11 "
                   style={{ marginTop: "3%" }}
                 >
                   Individuals offering you companionship are university students
@@ -255,7 +254,7 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
           <div className="align-center">
             <div className="row">
               <div
-                className="heading_textBig2 centersimple"
+                className="heading_textBig1 centersimple"
                 style={{ marginTop: "3%" }}
               >
                 Get Paired Now
@@ -283,7 +282,7 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
           <div className="align-center">
             <div className="row">
               <div
-                className="heading_textBig2 centersimple"
+                className="heading_textBig1 centersimple"
                 style={{ marginTop: "3%" }}
               >
                 Our Story

@@ -13,16 +13,16 @@ function how() {
         <div className="container-fluid nav_bg heading_background2">
           <div className="align-center">
             <div className="row">
-              <div className="heading_textBigB centersimple breakup" style={{textDecoration:"underline", textUnderlineOffset:"20px" , textDecorationColor:"white"}}>How it Works</div>
-              
-              <div className="col-md-5 ntextn" style={{marginTop:"4%",textAlign:"center"}}>
+              <div className="heading_textBigB centersimple breakup" style={{ textDecoration: "underline", textUnderlineOffset: "20px", textDecorationColor: "white" }}>How it Works</div>
+
+              <div className="col-md-5 ntextn" style={{ marginTop: "4%", textAlign: "center" }}>
                 Humrahi offers older adults companionship to encourage them to
                 live life to the fullest!
               </div>
             </div>
             <div className="break2"></div>
 
-            <div className="box centre" style={{marginBottom:"6%"}}>
+            <div className="box centre" style={{ marginBottom: "6%" }}>
               <div className="container centre ">
                 <img src={one} alt="img not found"></img>
                 <div className="break"></div>
@@ -62,15 +62,15 @@ function how() {
           <div className="align-center breakup">
             <div className="row">
               <div className="heading_textBig1 centersimple">Pricing</div>
-              <div className=" heading_text3center col-md-10" style={{ marginBottom:"3%", marginTop:"2%"}}>
+              <div className=" heading_text3center col-md-10" style={{ marginBottom: "3%", marginTop: "2%" }}>
                 Pricing is straightforward, we charge at an hourly rate, and on
                 top of that we charge on the basis of additional services that
                 may be required by our clients.
               </div>
-              <div className="ntextn col-md-4" style={{ marginTop:"30px", textAlign:"center",marginBottom:"2%"}} >
+              <div className="ntextn col-md-4" style={{ marginTop: "30px", textAlign: "center", marginBottom: "2%" }} >
                 Call us at 03219390689 or click below to learn more.
               </div>
-              <div className="centersimple" style={{ marginBottom:"90px"}}>
+              <div className="centersimple" style={{ marginBottom: "90px" }}>
                 <NavLink to={"/home"}>
                   <button type="button" className="buttont">
                     Learn More

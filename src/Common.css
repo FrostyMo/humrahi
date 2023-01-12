@@ -9,6 +9,7 @@
   flex-direction: row;
   position: relative;
   white-space: normal;
+  overflow: auto;
 }
 
 .vertical-center {

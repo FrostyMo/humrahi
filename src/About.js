@@ -18,7 +18,7 @@ function About() {
                 </div>
                 <div
                   className=" col-md-16 heading_textBigB2"
-                  style={{color: "white" }}
+                  style={{ color: "white" }}
                 >
                   Way We Grow Old.
                 </div>
@@ -41,13 +41,13 @@ function About() {
         <div className="container-fluid nav_bg">
           <div className="align-center breakup ">
             <div className="row ">
-              <div className="heading_textBigAbt centersimple" >
+              <div className="heading_textBigAbt" style={{ textAlign: 'center' }}>
                 Our Story is Deeply Personal
               </div>
               {/* <div className="border-x centersimple "></div> */}
               <div
                 className=" ntextP col-md-9 centersimple breakup"
-                
+
               >
                 Humrahi was founded in 2022 when we noticed the growing need for
                 social support and companionship for the elderly. We identified
@@ -60,7 +60,7 @@ function About() {
               </div>
               <div
                 className="  ntextP col-md-9 centersimple breakup"
-                
+
               >
                 Therefore we set out to help senior citizens become happy and
                 lead independent lives. Through this service, we connect
@@ -72,7 +72,7 @@ function About() {
               </div>
               <div
                 className="  ntextP col-md-9 centersimple breakup"
-             
+
               >
                 At the same time, we provide an opportunity to university
                 students to give back and contribute to the community and earn
@@ -89,19 +89,19 @@ function About() {
         <div className="container-fluid nav_bg heading_background2">
           <div className="align-center ">
             <div className="row">
-              <div className="heading_textBig2 centersimple ">Our Mission</div>
-              <div className=" ntextP2 centersimple col-md-8 break breakup" style={{textAlign:"center"}} >
+              <div className="heading_textBig1 centersimple ">Our Mission</div>
+              <div className=" ntextP2 centersimple col-md-8 break breakup" style={{ textAlign: "center" }} >
                 We’re on a mission to reimagine freedom at any age. Humrahi
                 fosters meaningful relationships and connections with older
                 adults using technology and community to support fulfilling
                 lives at home
               </div>
-              
+
             </div>
           </div>
         </div>
       </section>
-     <Footer></Footer>
+      <Footer></Footer>
     </>
   );
 }
