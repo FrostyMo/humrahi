@@ -82,95 +82,105 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
       <div class="wrapper" style={{ marginBottom: "8%" }}>
         <figure class="item1">
           <div class="box">
-            <div style={{ marginTop: "3%" }}>
-              <img src={home1} alt="img not found" style={{ height: '3.2vh', width: '3.2vh' }}></img>
+            <div style={{ marginTop: "1%" }}>
+              <img
+                src={home1}
+                alt="img not found"
+                style={{ height: "3.2vh", width: "3.2vh" }}
+              ></img>
             </div>
-            <div className="heading_title_border">
-              <span
-                className="me-4 heading_textBig2"
-                style={{ marginLeft: "4%" }}
+
+            <span
+              className="me-4 heading_textBig2"
+              style={{ textAlign: "left", marginLeft: "4%" }}
+            >
+              At Your House
+              <div
+                className="heading_text2 col-md-10 "
+                style={{ marginTop: "5%" }}
               >
-                At Your House
-                <div
-                  className="heading_text2 col-md-10 "
-                  style={{ marginLeft: "4%", marginTop: "5%" }}
-                >
-                  Preparing meals, gardening, light cleaning, helping with pets,
-                  and above all making a new friend!
-                </div>
-              </span>
-            </div>
+                Preparing meals, gardening, light cleaning, helping with pets,
+                and above all making a new friend!
+              </div>
+            </span>
+
             {/* <div className="addheight"></div> */}
           </div>
         </figure>
         <figure class="item2">
           <div class="box">
-            <div style={{ marginTop: "3%" }}>
-              <img src={shop} alt="img not found" style={{ height: '3.2vh', width: '3.2vh' }}></img>
+            <div style={{ marginTop: "1%" }}>
+              <img
+                src={shop}
+                alt="img not found"
+                style={{ height: "3.2vh", width: "3.2vh" }}
+              ></img>
             </div>
-            <div className="heading_title_border ">
-              <span
-                className="me-4 heading_textBig2"
-                style={{ marginLeft: "4%" }}
-              >
 
-                Running Errands For You
-                <div
-                  className="heading_text2 col-md-11 "
-                  style={{ marginLeft: "4%", marginTop: "5%" }}
-                >
-                  Grocery shopping, picking up parcels, shopping for gifts,
-                  picking up somethhing from a friend’s or relative’s house
-                </div>
-              </span>
-            </div>
+            <span
+              className="me-4 heading_textBig2"
+              style={{ textAlign: "left", marginLeft: "4%" }}
+            >
+              Running Errands For You
+              <div
+                className="heading_text2  "
+                style={{ marginTop: "5%", textAlign: "left" }}
+              >
+                Grocery shopping, picking up parcels, shopping for gifts,
+                picking up somethhing from a friend’s or relative’s house
+              </div>
+            </span>
           </div>
         </figure>
         <figure class="item3">
           <div class="box">
-            <div style={{ marginTop: "3%" }}>
-              <img src={car} alt="img not found" style={{ height: '3.2vh', width: '3.2vh' }}></img>
+            <div style={{ marginTop: "1%" }}>
+              <img
+                src={car}
+                alt="img not found"
+                style={{ height: "3.2vh", width: "3.2vh" }}
+              ></img>
             </div>
-            <div className=" heading_title_border ">
-              <span
-                className="me-4 heading_textBig2"
-                style={{ marginLeft: "4%" }}
-              >
 
-                Around Your City
-                <div
-                  className="heading_text2 col-md-10 "
-                  style={{ marginLeft: "4%", marginTop: "5%" }}
-                >
-                  Shopping, trips to friends and family, attending social
-                  gatherings, appointments, going out for a drive in the city or
-                  setting up rides for you.
-                </div>
-              </span>
-            </div>
+            <span
+              className="me-4 heading_textBig2"
+              style={{ textAlign: "left", marginLeft: "4%" }}
+            >
+              Around Your City
+              <div
+                className="heading_text2 col-md-10 "
+                style={{ marginTop: "5%" }}
+              >
+                Shopping, trips to friends and family, attending social
+                gatherings, appointments, going out for a drive in the city or
+                setting up rides for you.
+              </div>
+            </span>
           </div>
         </figure>
         <figure class="item4">
           <div class="box">
-            <div style={{ marginTop: "3%" }}>
-              <img src={dgital} alt="img not found" style={{ height: '3.2vh', width: '3.2vh' }}></img>
+            <div style={{ marginTop: "1%" }}>
+              <img
+                src={dgital}
+                alt="img not found"
+                style={{ height: "3.2vh", width: "3.2vh" }}
+              ></img>
             </div>
-            <div className=" heading_title_border ">
-              <span
-                className="me-4 heading_textBig2"
-                style={{ marginLeft: "4%" }}
-              >
 
-                Digital
-                <div
-                  className="heading_text2 col-md-10 "
-                  style={{ marginLeft: "4%", marginTop: "5%" }}
-                >
-                  Teaching how to operate computers, tablets, smartphones,
-                  smartTVs Both in person and digitally
-                </div>
-              </span>
-            </div>
+            <span
+              className="me-4 heading_textBig2"
+              style={{ textAlign: "left", marginLeft: "4%" }}
+            >
+              Digital
+              <div
+                className="heading_text2 col-md-10 "
+                style={{ marginTop: "5%" }}
+              >
+                Teaching how to operate computers, tablets, smartphones,
+                smartTVs Both in person and digitally
+              </div>
+            </span>
           </div>
         </figure>
       </div>
@@ -179,7 +189,9 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
         <div className="container-fluid nav_bg heading_background2">
           <div className="align-center">
             <div className="row">
-              <div className="heading_textBig1 centered">How it Works</div>
+              <div className="heading_textBig1 centered breakup">
+                How it Works
+              </div>
               <div
                 className=" heading_text2 centersimple"
                 style={{ marginTop: "3%" }}
@@ -220,6 +232,7 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
                 <div className="break"></div>
               </div>
             </div>
+            <div className="break"></div>
           </div>
         </div>
       </section>

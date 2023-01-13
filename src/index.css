@@ -44,6 +44,7 @@ div {
   border-left: 2px solid #000000c4;
   margin-left: 2%;
   margin-top: 2%;
+  height: 10em;
   position: relative;
 
 }
@@ -320,7 +321,7 @@ div {
   justify-content: center;
   text-decoration: underline;
   text-decoration-color: rgb(255, 255, 255);
-  text-underline-offset: 20px;
+  text-underline-offset: 2%;
 }
 
 .centre {
