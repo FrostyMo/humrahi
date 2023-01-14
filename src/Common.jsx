@@ -204,7 +204,9 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
 
             <div className="box centre">
               <div className="container centre ">
-                <img src={one} alt="img not found"></img>
+                <div className="">
+                  <img src={one} alt="img not found"></img>
+                </div>
                 <div className="break"></div>
                 <div className="ntext ">Contact Us</div>
                 <div className="ntext2 ">
@@ -255,7 +257,11 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
               </div>
 
               <div className="col-lg-5">
-                <img src={students} alt="img not found" />
+                <img
+                  src={students}
+                  alt="img not found"
+                  style={{ width: "50vh", height: "40vh" }}
+                />
               </div>
             </div>
           </div>
