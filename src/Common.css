@@ -9,8 +9,29 @@
   flex-direction: row;
   position: relative;
   white-space: normal;
-  overflow: auto;
+  /* flex-wrap: wrap; */
 }
+
+.boxFooter {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  position: relative;
+  white-space: normal;
+  /* flex-wrap: wrap; */
+}
+
+@media (max-width: 800px) {
+  .boxFooter {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    position: relative;
+    white-space: normal;
+    flex-wrap: wrap;
+  }
+}
+
 
 .vertical-center {
 
@@ -109,6 +130,10 @@
   margin-left: 5%;
 }
 
+.gap-horizontal-2 {
+  margin-left: 3vh;
+}
+
 .width2 {
   margin-left: 40px;
 }
@@ -190,9 +215,11 @@
   text-align: center;
   padding: 0.5rem 0rem;
 }
-.bouncey{
+
+.bouncey {
   margin-top: 2px;
 }
+
 .bouncey:hover {
   cursor: pointer;
   animation-name: bounce;
@@ -200,19 +227,26 @@
 }
 
 @keyframes bounce {
-	0%, 100%, 20%, 50%, 80% {
-		-webkit-transform: translateY(0);
-		-ms-transform:     translateY(0);
-		transform:         translateY(0)
-	}
-	40% {
-		-webkit-transform: translateY(-30px);
-		-ms-transform:     translateY(-30px);
-		transform:         translateY(-30px)
-	}
-	60% {
-		-webkit-transform: translateY(-15px);
-		-ms-transform:     translateY(-15px);
-		transform:         translateY(-15px)
-	}
+
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0)
+  }
+
+  40% {
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px)
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px)
+  }
 }
