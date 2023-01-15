@@ -192,9 +192,17 @@
 }
 .bouncey{
   margin-top: 2px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
 }
 .bouncey:hover {
-  cursor: pointer;
+  
   animation-name: bounce;
   -moz-animation-name: bounce;
 }
@@ -216,3 +224,52 @@
 		transform:         translateY(-15px)
 	}
 }
+.flex-wrapper {
+  display: flex;
+  height: 5px;
+}
+
+.tag1 {
+  margin-right: 2px;
+  transition: margin 0.2s ease-in-out;
+}
+
+.tag1:hover {
+  margin-top: -2;
+}
+img.hoverImages {
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+img.hoverImages:hover {
+  cursor:pointer;
+  margin-top: 6px;
+}
+/* span {  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 180px;
+  width: 180px;
+  background-color: red;  
+  border-radius: 50%;
+  line-height: 180px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  color: white;
+}
+span:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+} */
