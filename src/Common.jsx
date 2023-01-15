@@ -204,9 +204,8 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
 
             <div className="box centre">
               <div className="container centre ">
-                <div className="">
-                  <img src={one} alt="img not found"></img>
-                </div>
+                <img class="hoverImages" src={one} alt="img not found"></img>
+
                 <div className="break"></div>
                 <div className="ntext ">Contact Us</div>
                 <div className="ntext2 ">
@@ -215,7 +214,7 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
                 </div>
               </div>
               <div className="container centre">
-                <img src={two} alt="img not found"></img>
+                <img class="hoverImages" src={two} alt="img not found"></img>
                 <div className="break"></div>
                 <div className="ntext ">Tell Us About Yourself</div>
                 <div className="ntext2 ">
@@ -224,7 +223,7 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
                 </div>
               </div>
               <div className="container centre">
-                <img src={three} alt="img not found"></img>
+                <img class="hoverImages" src={three} alt="img not found"></img>
                 <div className="break"></div>
                 <div className="ntext ">Relax</div>
                 <div className="ntext2 ">
