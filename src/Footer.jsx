@@ -19,8 +19,7 @@ function Footer() {
             <div className="row">
               <div className="box centre break footer">
                 {/* <div className="width2"></div> */}
-                <div className="box centre" style={{ marginBottom: "6%" }}>
-                  <div className="break"></div>
+                <div className="boxFooter centre">
                   <div className="container centre ntext gap">
                     <NavLink style={{ color: "black" }} to="/">
                       Home
@@ -31,56 +30,25 @@ function Footer() {
                     <NavLink style={{ color: "black" }} to="/service">
                       Services
                     </NavLink>
-                    <a href="https://www.facebook.com" className="gap">
-                      <img
-                        src={fb}
-                        width={"30vh"}
-                        height={"30vh"}
-                        className="gap-horizontal"
-                      ></img>
-                    </a>
+
                   </div>
                   <div className=" container ntext gap">
                     <NavLink style={{ color: "black" }} to="/becompanion">
                       Students
                     </NavLink>
-                    <a href=" https://www.instagram.com" className="gap">
-                      <img
-                        src={insta}
-                        width={"30vh"}
-                        height={"30vh"}
-                        className="gap-horizontal"
-                      ></img>
-                    </a>
+
                   </div>
                   <div className="container ntext gap">
                     <NavLink style={{ color: "black" }} to="/how">
                       How
                     </NavLink>
-                    <a href="tel:03219390689" className="gap">
-                      <img
-                        src={call}
-                        width={"30vh"}
-                        height={"30vh"}
-                        className="gap-horizontal"
-                      ></img>
-                    </a>
+
                   </div>
-                  <div className="ntext gap">
+                  <div className="container ntext gap">
                     <NavLink style={{ color: "black" }} to="/about">
                       About
                     </NavLink>
-                    <a
-                      href="mailto:humrahi.official1@gmail.com"
-                      className="gap"
-                    >
-                      <img
-                        src={email}
-                        width={"30vh"}
-                        height={"30vh"}
-                        className="gap-horizontal"
-                      ></img>
-                    </a>
+
                   </div>
 
                   <div className="container ntext gap">
@@ -170,6 +138,46 @@ function Footer() {
                     </a>
                   </div>
                 </div> */}
+              </div>
+            </div>
+            <div className="row" style={{ paddingBottom: '2vh' }}>
+              <div className="footer">
+                <div className="boxFooter">
+                  <a href="https://www.facebook.com">
+                    <img
+                      src={fb}
+                      width={"30vh"}
+                      height={"30vh"}
+
+                    ></img>
+                  </a>
+                  <a href=" https://www.instagram.com" className="gap-horizontal-2">
+                    <img
+                      src={insta}
+                      width={"30vh"}
+                      height={"30vh"}
+
+                    ></img>
+                  </a>
+                  <a href="tel:03219390689" className="gap-horizontal-2">
+                    <img
+                      src={call}
+                      width={"30vh"}
+                      height={"30vh"}
+
+                    ></img>
+                  </a>
+                  <a
+                    href="mailto:humrahi.official1@gmail.com" className="gap-horizontal-2">
+                    <img
+                      src={email}
+                      width={"30vh"}
+                      height={"30vh"}
+
+                    ></img>
+                  </a>
+
+                </div>
               </div>
             </div>
           </div>
