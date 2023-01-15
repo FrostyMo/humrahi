@@ -40,10 +40,17 @@ function Becompanion() {
       <section className="align-items-center serviceBox-start">
         <div class="box">
           <div>
-            <img src={emo} alt="img not found" style={{ height: '3.2vh', width: '3.2vh' }}></img>
+            <img
+              src={emo}
+              alt="img not found"
+              style={{ height: "3.2vh", width: "3.2vh" }}
+            ></img>
           </div>
 
-          <span className=" heading_textBig2" style={{ marginLeft: "3%", textAlign: 'left' }}>
+          <span
+            className=" heading_textBig2"
+            style={{ marginLeft: "3%", textAlign: "left" }}
+          >
             {" "}
             Its Fufilling
             <div className="ntexts col-md-10 breakup break ">
@@ -58,10 +65,17 @@ function Becompanion() {
       <section className="align-items-center serviceBox">
         <div class="box">
           <div>
-            <img src={reward} alt="img not found" style={{ height: '3.2vh', width: '3.2vh' }}></img>
+            <img
+              src={reward}
+              alt="img not found"
+              style={{ height: "3.2vh", width: "3.2vh" }}
+            ></img>
           </div>
 
-          <span className="heading_textBig2" style={{ marginLeft: "3%", textAlign: 'left' }}>
+          <span
+            className="heading_textBig2"
+            style={{ marginLeft: "3%", textAlign: "left" }}
+          >
             Its Rewarding
             <div className="ntexts col-md-10 breakup break ">
               You'll be paid on an hourly basis for the basic companionship
@@ -76,10 +90,17 @@ function Becompanion() {
       <section className="align-items-center serviceBox">
         <div class="box">
           <div>
-            <img src={time} alt="img not found" style={{ height: '3.2vh', width: '3.2vh' }}></img>
+            <img
+              src={time}
+              alt="img not found"
+              style={{ height: "3.2vh", width: "3.2vh" }}
+            ></img>
           </div>
 
-          <span className="heading_textBig2" style={{ marginLeft: "3%", textAlign: 'left' }}>
+          <span
+            className="heading_textBig2"
+            style={{ marginLeft: "3%", textAlign: "left" }}
+          >
             {" "}
             Flexible Schedule
             <div className="ntexts col-md-10 breakup break ">
@@ -94,10 +115,17 @@ function Becompanion() {
       <section className="align-items-center serviceBox">
         <div class="box">
           <div>
-            <img src={variety} alt="img not found" style={{ height: '3.2vh', width: '3.2vh' }}></img>
+            <img
+              src={variety}
+              alt="img not found"
+              style={{ height: "3.2vh", width: "3.2vh" }}
+            ></img>
           </div>
 
-          <span className="heading_textBig2" style={{ marginLeft: "3%", textAlign: 'left' }}>
+          <span
+            className="heading_textBig2"
+            style={{ marginLeft: "3%", textAlign: "left" }}
+          >
             {" "}
             Variety of Services
             <div className="ntexts col-md-10 breakup break ">
@@ -113,10 +141,17 @@ function Becompanion() {
       <section className="align-items-center serviceBox">
         <div class="box">
           <div>
-            <img src={connect} alt="img not found" style={{ height: '3.2vh', width: '3.2vh' }}></img>
+            <img
+              src={connect}
+              alt="img not found"
+              style={{ height: "3.2vh", width: "3.2vh" }}
+            ></img>
           </div>
 
-          <span className="heading_textBig2" style={{ marginLeft: "3%", textAlign: 'left' }}>
+          <span
+            className="heading_textBig2"
+            style={{ marginLeft: "3%", textAlign: "left" }}
+          >
             {" "}
             Connect With the Community
             <div className="ntexts col-md-10 breakup break">
@@ -130,10 +165,17 @@ function Becompanion() {
       <section className="align-items-center serviceBox">
         <div class="box">
           <div>
-            <img src={dgital} alt="img not found" style={{ height: '3.2vh', width: '3.2vh' }}></img>
+            <img
+              src={dgital}
+              alt="img not found"
+              style={{ height: "3.2vh", width: "3.2vh" }}
+            ></img>
           </div>
 
-          <span className="heading_textBig2" style={{ marginLeft: "3%", textAlign: 'left' }}>
+          <span
+            className="heading_textBig2"
+            style={{ marginLeft: "3%", textAlign: "left" }}
+          >
             {" "}
             Digital
             <div className="ntexts col-md-10 breakup break">
@@ -157,7 +199,7 @@ function Becompanion() {
                 Call us at 03219390689 or click below to learn more.
               </div>
               <div className="centersimple break">
-                <NavLink to={"/home"}>
+                <NavLink to={"/contact"}>
                   <button type="button" className="buttont">
                     Learn More
                   </button>

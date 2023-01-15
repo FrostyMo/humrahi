@@ -24,7 +24,7 @@ function how() {
 
             <div className="box centre" style={{ marginBottom: "6%" }}>
               <div className="container centre ">
-                <img src={one} alt="img not found"></img>
+                <img class="hoverImages" src={one} alt="img not found"></img>
                 <div className="break"></div>
                 <div className="ntext ">Contact Us</div>
                 <div className="ntext2 ">
@@ -33,7 +33,7 @@ function how() {
                 </div>
               </div>
               <div className="container centre">
-                <img src={two} alt="img not found"></img>
+                <img class="hoverImages" src={two} alt="img not found"></img>
                 <div className="break"></div>
                 <div className="ntext ">Tell Us About Yourself</div>
                 <div className="ntext2 ">
@@ -42,7 +42,7 @@ function how() {
                 </div>
               </div>
               <div className="container centre">
-                <img src={three} alt="img not found"></img>
+                <img class="hoverImages" src={three} alt="img not found"></img>
                 <div className="break"></div>
                 <div className="ntext ">Relax</div>
                 <div className="ntext2 ">
@@ -71,7 +71,7 @@ function how() {
                 Call us at 03219390689 or click below to learn more.
               </div>
               <div className="centersimple" style={{ marginBottom: "90px" }}>
-                <NavLink to={"/home"}>
+                <NavLink to={"/contact"}>
                   <button type="button" className="buttont">
                     Learn More
                   </button>

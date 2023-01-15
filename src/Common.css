@@ -215,3 +215,14 @@
   text-align: center;
   padding: 0.5rem 0rem;
 }
+img.hoverImages {
+ 
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+img.hoverImages:hover {
+  cursor:pointer;
+  margin-top: 5px;
+}
