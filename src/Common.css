@@ -416,6 +416,7 @@ img.hoverImages:hover {
     margin-left: 2%;
     text-align: center;
     margin-right: 2%;
+    margin-top: 2%;
   }
   .each-slide>div {
     display: flex;
