@@ -83,88 +83,12 @@
   margin-top: 5%;
   font-size: 26px;
 }
-@media (max-width: 800px) {
-  .boxFooter {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    position: relative;
-    white-space: normal;
-    flex-wrap: wrap;
-  }
-  .heading_textBigAbt {
-    color: #000000;
-    font-size: 3vh;
-    font-weight: bold;
-    font-family: "IBM Plex Serif";
-    position: relative;
-    text-decoration: underline;
-    text-underline-offset: 10px;
-  
-  }
-  .heading_textBigB2 {
-    color: #000000;
-    font-size: 5vh;
-    font-weight: bold;
-    font-family: "IBM Plex Serif";
-    position: relative;
-    word-wrap: break-word;
-  }
-  .buttont {
-    background-color: #00b3ffb5;
-    /* Green */
-    border: none;
-    color: white;
-    padding: 4px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-    margin-top: 5%;
-    font-size: 18px;
-  }
-  .serviceBox {
-    margin-left: 2%;
-  
-  
-  }
-  .serviceBox-start {
-    margin-left: 2%;
-    margin-top: 4%;
-  
-  }
-  .border-x {
-    border: 1px solid #000000;
-    width: 100px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .extra-content {
-    color: black;
-    font-weight: 100;
-    display: flex;
-    justify-content: right;
-    align-items: right;
-    font-family: IBM Plex Sans;
-    font-size: 15px;
-    margin-top: 10px;
-  }
-  .buttont3 {
-    background-color: #D9D9D9;
-    /* Green */
-    border: none;
-    color: black;
-    padding: 8px 40px;
-    text-align: center;
-    text-decoration: none;
-  
-    position: relative;
-    margin-top: 5%;
-    font-size: 18px;
-  }
-  
-}
+
+
+
+
+
+
 
 
 .vertical-center {
@@ -324,16 +248,21 @@ img.hoverImages:hover {
   margin-top: 5px;
 }
 
-
+.column {
+  
+  width: 80vh;
+  display: block;
+  margin-left: auto;
+}
 .slide-container {
-  width: 100vh;
+  width: 80vh;
 }
 
 .each-slide>div {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
+  align-items: right;
+  justify-content: right;
+  background-size:cover;
   position: relative;
   height: 60vh;
 }
@@ -342,7 +271,7 @@ img.hoverImages:hover {
   padding: 0;
   font-size: 20px;
 
-  text-align: center;
+  text-align: right;
 }
 
 .each-fade {
@@ -383,4 +312,97 @@ img.hoverImages:hover {
 .container-fluid {
   margin-right: 0;
   margin-left: 0;
+}
+
+@media (max-width: 800px) {
+  .boxFooter {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    position: relative;
+    white-space: normal;
+    flex-wrap: wrap;
+  }
+  .heading_textBigAbt {
+    color: #000000;
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: "IBM Plex Serif";
+    position: relative;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+  
+  }
+  .heading_textBigB2 {
+    color: #000000;
+    font-size: 5vh;
+    font-weight: bold;
+    font-family: "IBM Plex Serif";
+    position: relative;
+    word-wrap: break-word;
+  }
+  .buttont {
+    background-color: #00b3ffb5;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 5%;
+    font-size: 18px;
+  }
+  .serviceBox {
+    margin-left: 2%;
+  
+  
+  }
+  .serviceBox-start {
+    margin-left: 2%;
+    margin-top: 4%;
+  
+  }
+  .border-x {
+    border: 1px solid #000000;
+    width: 100px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .extra-content {
+    color: black;
+    font-weight: 100;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-family: IBM Plex Sans;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .buttont3 {
+    background-color: #D9D9D9;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+  
+    position: relative;
+    margin-top: 5%;
+    font-size: 18px;
+  }
+  .each-slide>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    position: relative;
+    height: 50vh;
+    width:50vh
+
+  }
+  
 }
