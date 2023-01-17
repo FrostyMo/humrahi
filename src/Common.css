@@ -394,7 +394,7 @@ img.hoverImages:hover {
     margin-top: 5%;
     font-size: 18px;
   }
-  .each-slide>div {
+  /* .each-slide>div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -403,6 +403,6 @@ img.hoverImages:hover {
     height: 50vh;
     width:50vh
 
-  }
+  } */
   
 }
