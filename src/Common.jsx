@@ -15,39 +15,41 @@ import students from "../src/Pictures/students.png";
 import fb from "../src/Pictures/fb.png";
 import insta from "../src/Pictures/insta.png";
 import Footer from "./Footer";
+import { Slide } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
+import slideImages from "./Pictures"
 
 function Common({ name, imgsrc, imgsrc2, visit, btname }) {
   return (
     <>
       <section className="d-flex align-items-center">
-        <div className="container-fluid nav_bg heading_background">
-          <div className="col-10 mx-auto">
-            <div className="row" style={{ marginBottom: "8%" }}>
+        <div className="container-fluid nav_bg heading_background" >
+          <div className="row" style={{ marginBottom: "0%" }}>
+            <div
+              className="col-md-6 heading_text1"
+              style={{ marginTop: "3%" }}
+            >
+              {name}
               <div
-                className="col-md-6 heading_text1"
-                style={{ marginTop: "3%" }}
+                className=" col-md-11 heading_text2 "
+                style={{ marginTop: "4%" }}
               >
-                {name}
-                <div
-                  className=" col-md-11 heading_text2 "
-                  style={{ marginTop: "4%" }}
-                >
-                  We connect university students with the elderly living in
-                  their homes to provide them with social support, help them
-                  with activities of day-to-day living, run errands for them,
-                  and teach them digital skills.
-                </div>
-
-                <div className="mt-3">
-                  <NavLink to={visit}>
-                    <button type="button" className="buttont">
-                      {btname}
-                    </button>
-                  </NavLink>
-                </div>
+                We connect university students with the elderly living in
+                their homes to provide them with social support, help them
+                with activities of day-to-day living, run errands for them,
+                and teach them digital skills.
               </div>
 
-              <div
+              <div className="mt-3">
+                <NavLink to={visit}>
+                  <button type="button" className="buttont">
+                    {btname}
+                  </button>
+                </NavLink>
+              </div>
+            </div>
+
+            {/* <div
                 className="col-lg-6   header-img"
                 style={{ marginTop: "3%" }}
               >
@@ -56,9 +58,20 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
                   className="img-fluid animated"
                   alt="HomeImg"
                 />
-              </div>
+              </div> */}
+            <div className="slide-container">
+              <Slide>
+                {slideImages.map((slideImage, index) => (
+                  <div className="each-slide" key={index}>
+                    <div style={{ 'backgroundImage': `url(${slideImage.url})` }}>
+                    </div>
+                  </div>
+                ))}
+              </Slide>
             </div>
+
           </div>
+
         </div>
       </section>
 
