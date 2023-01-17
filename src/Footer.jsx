@@ -30,25 +30,21 @@ function Footer() {
                     <NavLink style={{ color: "black" }} to="/service">
                       Services
                     </NavLink>
-
                   </div>
                   <div className=" container ntext gap">
                     <NavLink style={{ color: "black" }} to="/becompanion">
                       Students
                     </NavLink>
-
                   </div>
                   <div className="container ntext gap">
                     <NavLink style={{ color: "black" }} to="/how">
                       How
                     </NavLink>
-
                   </div>
                   <div className="container ntext gap">
                     <NavLink style={{ color: "black" }} to="/about">
                       About
                     </NavLink>
-
                   </div>
 
                   <div className="container ntext gap">
@@ -140,43 +136,27 @@ function Footer() {
                 </div> */}
               </div>
             </div>
-            <div className="row" style={{ paddingBottom: '2vh' }}>
+            <div className="row" style={{ paddingBottom: "2vh" }}>
               <div className="footer">
                 <div className="boxFooter">
-                  <a href="https://www.facebook.com">
-                    <img
-                      src={fb}
-                      width={"30vh"}
-                      height={"30vh"}
-
-                    ></img>
-                  </a>
-                  <a href=" https://www.instagram.com" className="gap-horizontal-2">
-                    <img
-                      src={insta}
-                      width={"30vh"}
-                      height={"30vh"}
-
-                    ></img>
-                  </a>
-                  <a href="tel:03219390689" className="gap-horizontal-2">
-                    <img
-                      src={call}
-                      width={"30vh"}
-                      height={"30vh"}
-
-                    ></img>
+                  <a href="https://www.facebook.com/HumrahiOfficial">
+                    <img src={fb} width={"30vh"} height={"30vh"}></img>
                   </a>
                   <a
-                    href="mailto:humrahi.official1@gmail.com" className="gap-horizontal-2">
-                    <img
-                      src={email}
-                      width={"30vh"}
-                      height={"30vh"}
-
-                    ></img>
+                    href="https://instagram.com/humrahi.official?igshid=YmMyMTA2M2Y="
+                    className="gap-horizontal-2"
+                  >
+                    <img src={insta} width={"30vh"} height={"30vh"}></img>
                   </a>
-
+                  <a href="tel:03219390689" className="gap-horizontal-2">
+                    <img src={call} width={"30vh"} height={"30vh"}></img>
+                  </a>
+                  <a
+                    href="mailto:humrahi.official1@gmail.com"
+                    className="gap-horizontal-2"
+                  >
+                    <img src={email} width={"30vh"} height={"30vh"}></img>
+                  </a>
                 </div>
               </div>
             </div>

@@ -33,7 +33,7 @@ function Service() {
                 university student who can make all the difference in the world
                 for you with a short visit!
               </div>
-              <div className="border-x  "></div>
+             
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@ function Service() {
       <section className="align-items-center serviceBox-start">
         <div class="box">
           <div>
-            <img src={home1} alt="img not found"></img>
+            <img src={home1} alt="img not found" style={{ height: "3.2vh", width: "3.2vh" }}></img>
           </div>
           <div className=" break" style={{ marginLeft: "3%" }}>
             <span className="me-4 heading_textBig1">
@@ -60,7 +60,7 @@ function Service() {
       <section className="align-items-center serviceBox">
         <div class="box">
           <div>
-            <img src={car} alt="img not found"></img>
+            <img src={car} alt="img not found" style={{ height: "3.2vh", width: "3.2vh" }}></img>
           </div>
           <div className=" break" style={{ marginLeft: "3%" }}>
             <span className="me-4 heading_textBig1">
@@ -79,7 +79,7 @@ function Service() {
       <section className="align-items-center serviceBox">
         <div class="box">
           <div>
-            <img src={shop} alt="img not found"></img>
+            <img src={shop} alt="img not found" style={{ height: "3.2vh", width: "3.2vh" }}></img>
           </div>
           <div className=" break" style={{ marginLeft: "3%" }}>
             <span className="me-4 heading_textBig1">
@@ -97,7 +97,7 @@ function Service() {
       <section className="align-items-center serviceBox">
         <div class="box">
           <div>
-            <img src={dgital} alt="img not found"></img>
+            <img src={dgital} alt="img not found" style={{ height: "3.2vh", width: "3.2vh" }}></img>
           </div>
           <div className=" break" style={{ marginLeft: "3%" }}>
             <span className="me-4 heading_textBig1">

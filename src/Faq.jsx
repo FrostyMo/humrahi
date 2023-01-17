@@ -18,7 +18,7 @@ function Faq() {
   const [readMore5, setReadMore5] = useState(false);
   const [readMore6, setReadMore6] = useState(false);
   const extraContent1 = (
-    <div className="extra-content col-md-10" style={{ fontSize: "25px" }}>
+    <div className="extra-content col-md-10">
       Our companions are university students who want to give back to the
       community while earning flexible income in the process, and they love
       spending time with the elderly!
@@ -26,10 +26,7 @@ function Faq() {
   );
 
   const extraContent2 = (
-    <div
-      className="extra-content col-md-10 ntexts"
-      style={{ fontSize: "25px" }}
-    >
+    <div className="extra-content col-md-10 ntexts">
       Our students are devoted and willing to do whatever it takes to support
       your continued independence, connectedness, and happiness. We provide an
       hourly companionship where either the student would visit and spend time
@@ -45,7 +42,7 @@ function Faq() {
     </div>
   );
   const extraContent3 = (
-    <div className="extra-content col-md-10" style={{ fontSize: "25px" }}>
+    <div className="extra-content col-md-10">
       It's straightforward! Just give us a call or contact us through email and
       we'll take care of the arrangement for you. Once we contact you, you can
       provide us with details regarding the additional services you're looking
@@ -53,19 +50,19 @@ function Faq() {
     </div>
   );
   const extraContent4 = (
-    <div className="extra-content col-md-8" style={{ fontSize: "25px" }}>
+    <div className="extra-content col-md-8">
       We recommend that you book a companion a few days in advance to make the
       process hassle-free!
     </div>
   );
   const extraContent5 = (
-    <div className="extra-content col-md-10" style={{ fontSize: "25px" }}>
+    <div className="extra-content col-md-10">
       Yes, we do try our best! However, we can't guarantee that the request will
       be filled each time since students are busy with their own schedules.
     </div>
   );
   const extraContent6 = (
-    <div className="extra-content col-md-10" style={{ fontSize: "25px" }}>
+    <div className="extra-content col-md-10">
       One of the benefits of our service is that you are relieved of the stress
       of having to interview or choose your companion: we'll handle it for you!
       You can feel confident that a dependable, caring student would
@@ -96,10 +93,14 @@ function Faq() {
       </section>
       <div className="container  ">
         <div className="App">
-
-          <div className="faqText" style={{ cursor: "pointer" }} onClick={() => {
-            setReadMore(!readMore);
-          }}>Who are the Students?
+          <div
+            className="faqText"
+            style={{ cursor: "pointer" }}
+            onClick={() => {
+              setReadMore(!readMore);
+            }}
+          >
+            Who are the Students?
             {/* <a className="arrows at-end">
               <img
                 src={linkName}
@@ -114,10 +115,13 @@ function Faq() {
 
       <div className="container  ">
         <div className="App">
-
-          <div className="faqText" style={{ cursor: "pointer" }} onClick={() => {
-            setReadMore2(!readMore2);
-          }}>
+          <div
+            className="faqText"
+            style={{ cursor: "pointer" }}
+            onClick={() => {
+              setReadMore2(!readMore2);
+            }}
+          >
             What kind of services do you offer?
             {/* <a className="arrows at-end">
               <img
@@ -132,10 +136,14 @@ function Faq() {
 
       <div className="container  ">
         <div className="App">
-
-          <div className="faqText" style={{ cursor: "pointer" }} onClick={() => {
-            setReadMore3(!readMore3);
-          }}>How do I sign up?
+          <div
+            className="faqText"
+            style={{ cursor: "pointer" }}
+            onClick={() => {
+              setReadMore3(!readMore3);
+            }}
+          >
+            How do I sign up?
             {/* <a className="arrows at-end">
               <img
                 src={linkName3}
@@ -150,10 +158,13 @@ function Faq() {
 
       <div className="container  ">
         <div className="App">
-
-          <div className="faqText" style={{ cursor: "pointer" }} onClick={() => {
-            setReadMore4(!readMore4);
-          }}>
+          <div
+            className="faqText"
+            style={{ cursor: "pointer" }}
+            onClick={() => {
+              setReadMore4(!readMore4);
+            }}
+          >
             How far in advance do I need to book a companion?
             {/* <a className="arrows at-end">
               <img
@@ -169,10 +180,13 @@ function Faq() {
 
       <div className="container  ">
         <div className="App">
-
-          <div className="faqText" style={{ cursor: "pointer" }} onClick={() => {
-            setReadMore5(!readMore5);
-          }}>
+          <div
+            className="faqText"
+            style={{ cursor: "pointer" }}
+            onClick={() => {
+              setReadMore5(!readMore5);
+            }}
+          >
             Do we cater to same-day requests?
             {/* <a className="arrows at-end">
               <img
@@ -188,11 +202,13 @@ function Faq() {
 
       <div className="container breakd ">
         <div className="App">
-
-          <div className="faqText " style={{ cursor: "pointer" }} onClick={() => {
-            setReadMore6(!readMore6);
-          }}>
-
+          <div
+            className="faqText "
+            style={{ cursor: "pointer" }}
+            onClick={() => {
+              setReadMore6(!readMore6);
+            }}
+          >
             Do I have to choose my companion beforehand?
             {/* <a className="arrows at-end">
               <img
@@ -215,9 +231,13 @@ function Faq() {
                 <div className="ntexts col-md-15">
                   We hope you've found this page informative, but if you still
                   have questions, we're always happy to help. Feel free to give
-                  us a call at 310-853-8997 or email us at fawfaw@gmail.com and
-                  learn more about how Humrahi works. We can't wait to hear from
-                  you, and help you stay happy and independent!
+                  us a call at
+                  <a href="tel:03219390689" className="gap-horizontal-2">
+                    0310-853-8997
+                  </a>
+                  or email us at humrahi.official1@gmail.com and learn more
+                  about how Humrahi works. We can't wait to hear from you, and
+                  help you stay happy and independent!
                 </div>
                 <div className="mt-3">
                   <NavLink to={"/contact"}>

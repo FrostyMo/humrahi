@@ -146,16 +146,6 @@ div {
   position: relative;
 }
 
-.heading_textBigAbt {
-  color: #000000;
-  font-size: 4vh;
-  font-weight: bold;
-  font-family: "IBM Plex Serif";
-  position: relative;
-  text-decoration: underline;
-  text-underline-offset: 20px;
-
-}
 
 .heading_textBigB {
   color: #000000;
