@@ -313,8 +313,23 @@ img.hoverImages:hover {
   margin-right: 0;
   margin-left: 0;
 }
+.heading_text2 {
+  color: #000000;
+  font-size: 2.3vh;
+  font-weight: lighter;
+  font-family: "IBM Plex Serif";
+  position: relative;
 
+}
 @media (max-width: 800px) {
+  .heading_text2 {
+    color: #000000;
+    font-size: 2.3vh;
+    font-weight: lighter;
+    font-family: "IBM Plex Serif";
+    position: relative;
+  margin-right: 2%;
+  }
   .boxFooter {
     display: flex;
     align-items: flex-start;
@@ -394,15 +409,23 @@ img.hoverImages:hover {
     margin-top: 5%;
     font-size: 18px;
   }
-  /* .each-slide>div {
+  .column {
+  
+    width: 60vh;
+    display: block;
+    margin-left: 2%;
+    text-align: center;
+    margin-right: 2%;
+  }
+  .each-slide>div {
     display: flex;
     align-items: center;
     justify-content: center;
     background-size: cover;
     position: relative;
     height: 50vh;
-    width:50vh
+    width:60vh
 
-  } */
+  }
   
 }
