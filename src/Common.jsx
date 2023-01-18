@@ -26,7 +26,7 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
         <div className="nav_bg heading_background">
           <div className="row" style={{ marginBottom: "0%" }}>
             <div
-              className=" container col-md-5 heading_text1"
+              className=" container-fluid col-md-6 heading_text1"
               style={{ marginTop: "3%", marginLeft: "3%" }}
             >
               {name}
