@@ -320,15 +320,32 @@ img.hoverImages:hover {
   font-family: "IBM Plex Serif";
   position: relative;
 
+
+}
+.ntext2 {
+  color: #000000;
+  font-size: 2.3vh;
+  font-weight: 200;
+  font-family: "IBM Plex Sans";
+  position: relative;
+  margin-top: 2%;
 }
 @media (max-width: 800px) {
+  .ntext2 {
+    color: #000000;
+    font-size: 2.0vh;
+    font-weight: 200;
+    font-family: "IBM Plex Sans";
+    position: relative;
+    margin-top: 2%;
+  }
   .heading_text2 {
     color: #000000;
-    font-size: 2.3vh;
+    font-size: 2.0vh;
     font-weight: lighter;
     font-family: "IBM Plex Serif";
     position: relative;
-  margin-right: 2%;
+  margin-right: 4%;
   }
   .boxFooter {
     display: flex;
@@ -411,7 +428,7 @@ img.hoverImages:hover {
   }
   .column {
   
-    width: 60vh;
+    width: 50vh;
     display: block;
     margin-left: 2%;
     align-items: center;
@@ -425,7 +442,7 @@ img.hoverImages:hover {
     background-size: cover;
     position: relative;
     height: 50vh;
-    width:60vh
+    width:50vh
 
   }
   .each-slide span {

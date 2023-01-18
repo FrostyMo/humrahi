@@ -26,12 +26,12 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
         <div className="nav_bg heading_background">
           <div className="row" style={{ marginBottom: "0%" }}>
             <div
-              className=" container col-md-6 heading_text1"
+              className=" container col-md-5 heading_text1"
               style={{ marginTop: "3%", marginLeft: "3%" }}
             >
               {name}
               <div
-                className="  col-md-11 heading_text2 "
+                className="  col-md-10 heading_text2 "
                 style={{ marginTop: "4%" }}
               >
                 We connect university students with the elderly living in their
