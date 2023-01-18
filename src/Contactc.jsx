@@ -65,8 +65,8 @@ function Contactc() {
                   Tell Us About Yourself
                 </div>
                 <div className="ntext2 " style={{ color: "white" }}>
-                  Tell us your requirements and any additional services you
-                  require.
+                  Tell us your availability and any additional services you can
+                  provide
                 </div>
               </div>
               <div className="container centre">
@@ -76,8 +76,7 @@ function Contactc() {
                   Relax
                 </div>
                 <div className="ntext2 break2" style={{ color: "white" }}>
-                  We match you and fix your schedule with a trusted
-                  companionship, who would arrive and offer help!
+                  We match you with a client willing to avail your service!
                 </div>
                 <div className="break2"></div>
               </div>
