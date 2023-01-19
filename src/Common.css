@@ -336,6 +336,8 @@ img.hoverImages:hover {
   font-weight: bold;
   font-family: "IBM Plex Serif";
   position: relative;
+  white-space: nowrap;
+  overflow:hidden;
 
 }
 
@@ -349,6 +351,7 @@ img.hoverImages:hover {
     margin-right: 5%;
     word-wrap: break-word;
     overflow:hidden;
+    white-space: nowrap;
     
   }
   

@@ -36,8 +36,8 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
               >
                 We connect university students with the elderly living in their
                 homes to provide them with social support, help them with
-                mainnnnn activities of day-to-day living, run errands for them,
-                and teach them digital skills.
+                activities of day-to-day living, run errands for them, and teach
+                them digital skills.
               </div>
 
               <div className="mt-3">
