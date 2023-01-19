@@ -24,9 +24,9 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
     <>
       <section className="d-flex ">
         <div className="nav_bg heading_background">
-          <div className="row" style={{ marginBottom: "0%" }}>
+          <div className="row">
             <div
-              className=" container-fluid container col-md-6 heading_text1"
+              className="col-md-6 heading_text1"
               style={{ marginTop: "3%", marginLeft: "3%" }}
             >
               {name}
@@ -60,7 +60,7 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
                 />
               </div> */}
             <div className="column" style={{}}>
-              <Slide>
+              <Slide arrows={false} infinite={true}>
                 {slideImages.map((slideImage, index) => (
                   <div className="each-slide" key={index}>
                     <div

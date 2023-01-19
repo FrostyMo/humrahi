@@ -20,6 +20,7 @@
   white-space: normal;
   /* flex-wrap: wrap; */
 }
+
 .heading_textBigAbt {
   color: #000000;
   font-size: 4vh;
@@ -30,16 +31,19 @@
   text-underline-offset: 20px;
 
 }
+
 .serviceBox {
   margin-left: 20%;
 
 
 }
+
 .serviceBox-start {
   margin-left: 20%;
   margin-top: 4%;
 
 }
+
 .buttont {
   background-color: #00b3ffb5;
   /* Green */
@@ -53,6 +57,7 @@
   margin-top: 5%;
   font-size: 24px;
 }
+
 .border-x {
   border: 1px solid #000000;
   width: 185px;
@@ -60,6 +65,7 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
 .extra-content {
   color: black;
   font-weight: 100;
@@ -70,6 +76,7 @@
   font-size: 25px;
   margin-top: 10px;
 }
+
 .buttont3 {
   background-color: #D9D9D9;
   /* Green */
@@ -245,15 +252,20 @@ img.hoverImages {
 
 img.hoverImages:hover {
   cursor: pointer;
-  margin-top: 5px;
+  margin-top: 25px;
+
+  transition: all 0.6s ease-in 0.9s ease-out 0.9s;
+  transform: scale(1.1);
+  margin-bottom: 10px;
 }
 
 .column {
-  
+
   width: 80vh;
   display: block;
   margin-left: auto;
 }
+
 .slide-container {
   width: 80vh;
 }
@@ -262,7 +274,7 @@ img.hoverImages:hover {
   display: flex;
   align-items: right;
   justify-content: right;
-  background-size:cover;
+  background-size: cover;
   position: relative;
   height: 60vh;
 }
@@ -313,6 +325,7 @@ img.hoverImages:hover {
   margin-right: 0;
   margin-left: 0;
 }
+
 .heading_text2 {
   color: #000000;
   font-size: 2.3vh;
@@ -322,6 +335,7 @@ img.hoverImages:hover {
 
 
 }
+
 .ntext2 {
   color: #000000;
   font-size: 2.3vh;
@@ -330,29 +344,25 @@ img.hoverImages:hover {
   position: relative;
   margin-top: 2%;
 }
+
 .heading_text1 {
   color: #000000;
-  font-size: 2.9vh;
+  font-size: 4.0vh;
   font-weight: bold;
   font-family: "IBM Plex Serif";
   position: relative;
- 
+
 }
 
 @media (max-width: 800px) {
   .heading_text1 {
     color: #000000;
-    font-size: 2.9vh;
+    font-size: 3.2vh;
     font-weight: bold;
     font-family: "IBM Plex Serif";
     position: relative;
-    margin-right: 5%;
-    word-wrap: break-word;
-    overflow: scroll;
-   
-  
   }
-  
+
   .ntext2 {
     color: #000000;
     font-size: 2.0vh;
@@ -361,14 +371,16 @@ img.hoverImages:hover {
     position: relative;
     margin-top: 2%;
   }
+
   .heading_text2 {
     color: #000000;
     font-size: 2.0vh;
     font-weight: lighter;
     font-family: "IBM Plex Serif";
     position: relative;
-  margin-right: 4%;
+    margin-right: 4%;
   }
+
   .boxFooter {
     display: flex;
     align-items: flex-start;
@@ -377,6 +389,7 @@ img.hoverImages:hover {
     white-space: normal;
     flex-wrap: wrap;
   }
+
   .heading_textBigAbt {
     color: #000000;
     font-size: 3vh;
@@ -385,8 +398,9 @@ img.hoverImages:hover {
     position: relative;
     text-decoration: underline;
     text-underline-offset: 10px;
-  
+
   }
+
   .heading_textBigB2 {
     color: #000000;
     font-size: 5vh;
@@ -395,6 +409,7 @@ img.hoverImages:hover {
     position: relative;
     word-wrap: break-word;
   }
+
   .buttont {
     background-color: #00b3ffb5;
     /* Green */
@@ -408,16 +423,19 @@ img.hoverImages:hover {
     margin-top: 5%;
     font-size: 18px;
   }
+
   .serviceBox {
     margin-left: 2%;
-  
-  
+
+
   }
+
   .serviceBox-start {
     margin-left: 2%;
     margin-top: 4%;
-  
+
   }
+
   .border-x {
     border: 1px solid #000000;
     width: 100px;
@@ -425,6 +443,7 @@ img.hoverImages:hover {
     left: 50%;
     transform: translateX(-50%);
   }
+
   .extra-content {
     color: black;
     font-weight: 100;
@@ -435,6 +454,7 @@ img.hoverImages:hover {
     font-size: 15px;
     margin-top: 10px;
   }
+
   .buttont3 {
     background-color: #D9D9D9;
     /* Green */
@@ -443,20 +463,26 @@ img.hoverImages:hover {
     padding: 8px 40px;
     text-align: center;
     text-decoration: none;
-  
+
     position: relative;
     margin-top: 5%;
     font-size: 18px;
   }
+
   .column {
-  
     width: 50vh;
+    /* display: flex; */
+    min-width: 100%;
+    min-height: 100%;
     display: block;
-    margin-left: 2%;
+    /* flex-shrink: 0; */
+    /* overflow: hidden; */
+    /* margin-left: 2%; */
     align-items: center;
     margin-right: 2%;
     margin-top: 2%;
   }
+
   .each-slide>div {
     display: flex;
     align-items: center;
@@ -464,13 +490,13 @@ img.hoverImages:hover {
     background-size: cover;
     position: relative;
     height: 50vh;
-    width:50vh
-
+    width: 60vh
   }
+
   .each-slide span {
     padding: 0;
     font-size: 20px;
-  margin-right: 2%;
+    margin-right: 2%;
     text-align: right;
   }
 }
