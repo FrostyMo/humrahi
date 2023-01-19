@@ -26,7 +26,7 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
         <div className="nav_bg heading_background">
           <div className="row" style={{ marginBottom: "0%" }}>
             <div
-              className=" container-fluid container col-md-5 heading_text1"
+              className=" container-fluid container col-md-6 heading_text1"
               style={{ marginTop: "3%", marginLeft: "3%" }}
             >
               {name}
@@ -36,8 +36,8 @@ function Common({ name, imgsrc, imgsrc2, visit, btname }) {
               >
                 We connect university students with the elderly living in their
                 homes to provide them with social support, help them with
-                activities of day-to-day living, run errands for them, and teach
-                them digital skills.
+                mainnnnn activities of day-to-day living, run errands for them,
+                and teach them digital skills.
               </div>
 
               <div className="mt-3">
