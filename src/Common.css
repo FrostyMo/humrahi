@@ -343,7 +343,7 @@ img.hoverImages:hover {
 @media (max-width: 800px) {
   .heading_text1 {
     color: #000000;
-    font-size: 2.9vh;
+    font-size: 2.6vh;
     font-weight: bold;
     font-family: "IBM Plex Serif";
     position: relative;
@@ -351,9 +351,7 @@ img.hoverImages:hover {
     word-wrap: break-word;
     overflow: visible;
     overflow-wrap: break-word;
-    display: flex;
-  justify-content: center;
-  align-items: center;
+  
   }
   
   .ntext2 {
