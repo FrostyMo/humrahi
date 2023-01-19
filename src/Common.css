@@ -347,7 +347,7 @@ img.hoverImages:hover {
     font-family: "IBM Plex Serif";
     position: relative;
     margin-right: 5%;
-  
+    word-wrap: break-word
   }
   
   .ntext2 {
