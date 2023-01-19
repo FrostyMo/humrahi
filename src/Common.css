@@ -336,21 +336,20 @@ img.hoverImages:hover {
   font-weight: bold;
   font-family: "IBM Plex Serif";
   position: relative;
-  overflow: visible;
-  overflow-wrap: break-word;
+ 
 }
 
 @media (max-width: 800px) {
   .heading_text1 {
     color: #000000;
-    font-size: 2.6vh;
+    font-size: 2.9vh;
     font-weight: bold;
     font-family: "IBM Plex Serif";
     position: relative;
     margin-right: 5%;
     word-wrap: break-word;
-    overflow: visible;
-    overflow-wrap: break-word;
+    overflow: scroll;
+   
   
   }
   
