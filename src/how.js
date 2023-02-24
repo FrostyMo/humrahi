@@ -47,7 +47,7 @@ function how() {
                 <div className="ntext ">Relax</div>
                 <div className="ntext2 ">
                   We match you and fix your schedule with a trusted
-                  companionship, who would arrive and offer help!
+                  companion, who would arrive and offer help!
                 </div>
                 <div className="break"></div>
               </div>

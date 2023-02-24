@@ -77,7 +77,7 @@ function Contacto() {
                 </div>
                 <div className="ntext2 break2" style={{ color: "white" }}>
                   We match you and fix your schedule with a trusted
-                  companionship, who would arrive and offer help!
+                  companion, who would arrive and offer help!
                 </div>
                 <div className="break2"></div>
               </div>

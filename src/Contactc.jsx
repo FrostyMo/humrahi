@@ -87,6 +87,34 @@ function Contactc() {
       </section>
 
       <section className="align-items-center">
+        <div className="container-fluid nav_bg heading_background8">
+          <div className="align-center">
+            <div className="row">
+              <div
+                className="heading_textBig2 centersimple"
+                style={{ marginTop: "3%" }}
+              >
+                Apply here
+              </div>
+              <div
+                className=" heading_text2sans centersimple"
+                style={{ marginTop: "2%" }}
+              >
+                This form is a gateway between us and you!
+              </div>
+              <div className="centersimple break" style={{ marginTop: "2%" }}>
+                <a href="https://forms.gle/cNXdXs2YHZWvnwLN7" target="_blank">
+                  <button type="button" className="buttont">
+                    Apply
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="align-items-center">
         <div className="container-fluid nav_bg heading_background3">
           <div className="align-center">
             <div className="row">

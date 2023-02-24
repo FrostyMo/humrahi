@@ -337,6 +337,10 @@ div {
   background-color: #C4EAFA;
 }
 
+.heading_backgroundForm {
+  background-color: #fff;
+}
+
 @-webkit-keyframes up-down {
   0% {
     transform: translateY(10px);

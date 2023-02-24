@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import SelectBox from "./select-box.jsx";
-import { NavLink } from "react-router-dom";
+import { matchRoutes, NavLink } from "react-router-dom";
 import "./index.css";
 import "./Common.css";
 import "./Faq";
@@ -232,8 +232,8 @@ function Faq() {
                   We hope you've found this page informative, but if you still
                   have questions, we're always happy to help. Feel free to give
                   us a call at
-                  <a href="tel:03219390689" className="gap-horizontal-2">
-                    0310-853-8997
+                  <a href="tel:03219390689" style={{ marginLeft: "2vh", marginRight: "2vh" }}>
+                    +92 321 9390689
                   </a>
                   or email us at humrahi.official1@gmail.com and learn more
                   about how Humrahi works. We can't wait to hear from you, and
